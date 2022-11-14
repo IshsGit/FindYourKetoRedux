@@ -9,17 +9,18 @@ export default class userInput {
   }
 
   setUpTags() {
+    let index = 0;
     const numberOfTags = recipes.length;
     const recipeTags = [];
     recipes.forEach((recipe, idx) => {
-     
+      index = idx;
       const uniqTags = {};
       const tagChoices = document.createElement("div");
       tagChoices.className = "user-tag-choice";
-      recipe.tags.forEach((tag, idx) => {
+      recipe.tags.forEach((tag) => {
         console.log(!recipeTags.includes(tag));
         if (!recipeTags.includes(tag)) {
-          tagChoices.appendChild(this.generateButton(tag));
+          tagChoices.appendChild(this.generateButton(tag,index));
         }
         recipeTags.push(tag);
         console.log(recipeTags);
@@ -28,9 +29,9 @@ export default class userInput {
     });
   }
 
-  generateButton(tag) {
+  generateButton(tag,index) {
     const button = document.createElement("button");
-    button.className = tag;
+    button.className = `${index}` + '-';
     button.classList.add("user-tag-button");
     button.innerText = tag;
     button.addEventListener("click", () => {

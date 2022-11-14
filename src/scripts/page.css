@@ -1,0 +1,21 @@
+#left-half {
+
+    display: block;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100px;
+  }
+
+  /* #right-half{
+  display: block;
+    
+  
+  } */
+
+ /* #left-container {
+position: relative;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+  

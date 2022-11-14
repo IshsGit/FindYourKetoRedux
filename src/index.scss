@@ -1,13 +1,2 @@
-#left-half {
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-  }
-
-  #left-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+@import url("reset.css");
+@import url("page.css");
