@@ -10,28 +10,33 @@ export default class userInput {
 
   setUpTags() {
     let index = 0;
+    let alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
     const numberOfTags = recipes.length;
     const recipeTags = [];
     recipes.forEach((recipe, idx) => {
       index = idx;
       const uniqTags = {};
-      const tagChoices = document.createElement("div");
-      tagChoices.className = "user-tag-choice";
+      // const tagChoices = document.createElement("div");
+      // tagChoices.className = "user-tag-choice";
       recipe.tags.forEach((tag) => {
         console.log(!recipeTags.includes(tag));
         if (!recipeTags.includes(tag)) {
-          tagChoices.appendChild(this.generateButton(tag,index));
+          this.leftContainer.appendChild(this.generateButton(tag,alpha[index]));
         }
         recipeTags.push(tag);
         console.log(recipeTags);
       });
-      this.leftContainer.appendChild(tagChoices);
+      // this.leftContainer.appendChild(tagChoices);
     });
   }
 
   generateButton(tag,index) {
     const button = document.createElement("button");
-    button.className = `${index}` + '-';
+    // button.className = `${index}` + '-';
+    button.setAttribute("class",`${index}`.replace(/ /g,""));
+    // document.getElementsByClassName("a").forEach((button)=>{
+    //   button.
+    // })
     button.classList.add("user-tag-button");
     button.innerText = tag;
     button.addEventListener("click", () => {
@@ -45,7 +50,8 @@ export default class userInput {
     const tagClick = document.createElement("ul");
     tagClick.className = "foodAttributes";
     const foodInfo = document.createElement("li");
-    foodInfo.innerText = this.food.showDescription(tag);
+    foodInfo.innerHTML = this.food.showDescription(tag);
+
     tagClick.appendChild(foodInfo);
 
     // document.getElementsByClassName("button").innertext = "YOU CLICKED ME!";

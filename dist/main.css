@@ -101,7 +101,12 @@ position: relative;
   flex-direction: column;
   align-items: center;
 } */
-  
+
+/* .a .user-tag-button{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
