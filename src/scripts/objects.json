@@ -1,0 +1,1877 @@
+[
+    {
+        "id": "59efefcf-5f9e-4575-af3d-e5dcb8d1c846",
+        "name": "Keto Heirloom Tomato and Eggplant Sheet Tray w Steak",
+        "tags": [
+            "gluten-free",
+            "wheat-free",
+            "egg-free",
+            "peanut-free",
+            "tree-nut-free",
+            "fish-free",
+            "shellfish-free",
+            "pork-free",
+            "chicken-free",
+            "keto",
+            "lchf",
+            "relevant-meal--sides"
+        ],
+        "description": "Seasonal heirloom tomatoes and eggplant are best during late summer and early autumn in the U.S., but you can make this eye-catching side dish almost any time of year. Herbaceous seasonings and just the right amount of cheese finish off the beautiful red and purple hues with delicious flavor.\n\nJessica L. \n",
+        "prepareTime": 17,
+        "cookTime": 30,
+        "ingredients": [
+            {
+                "name": "Sirloin Tip Steak Thin Sliced by Wal-mart",
+                "servingSize": {
+                    "units": "pound",
+                    "desc": "1 pound",
+                    "qty": 1,
+                    "grams": 454,
+                    "scale": 4.05
+                }
+            },
+            {
+                "name": "Eggplant, Raw",
+                "servingSize": {
+                    "units": "ounce",
+                    "desc": "6-¼ ounce",
+                    "qty": 6.25,
+                    "grams": 177,
+                    "scale": 2.161
+                }
+            },
+            {
+                "name": "Tomato",
+                "servingSize": {
+                    "units": "ounce",
+                    "desc": "12-¼ ounce",
+                    "qty": 12.25,
+                    "grams": 347,
+                    "scale": 1.929
+                }
+            },
+            {
+                "name": "Salt",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "½ teaspoon",
+                    "qty": 0.5,
+                    "grams": 3,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Black Pepper, Ground",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "¼ teaspoon",
+                    "qty": 0.25,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Garlic",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "2 teaspoon",
+                    "qty": 2,
+                    "grams": 6,
+                    "scale": 2
+                }
+            },
+            {
+                "name": "Basil, Dried",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "½ teaspoon",
+                    "qty": 0.5,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Thyme, Fresh",
+                "servingSize": {
+                    "units": "gram",
+                    "desc": "2 gram",
+                    "qty": 2,
+                    "grams": 2,
+                    "scale": 0.833
+                }
+            },
+            {
+                "name": "Olive Oil",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "6 teaspoon",
+                    "qty": 6,
+                    "grams": 27,
+                    "scale": 2
+                }
+            },
+            {
+                "name": "Lemon Juice",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "½ teaspoon",
+                    "qty": 0.5,
+                    "grams": 3,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Parmesan Cheese",
+                "servingSize": {
+                    "units": "tablespoon, grated",
+                    "desc": "½ tablespoon, grated",
+                    "qty": 0.5,
+                    "grams": 4,
+                    "scale": 0.125
+                }
+            }
+        ],
+        "steps": [
+            "Preheat an oven to 350 degrees. Prepare the main ingredient by slicing your steak into 8 equal pieces. Slice your eggplant and heirloom tomato into half circles about ½-inch thick. ",
+            "Line a quarter-sheet tray with parchment paper. If your sheet tray is naturally seasoned, you may not need to lay down parchment. Arrange your sliced ingredients in this order: eggplant, tomato, eggplant, tomato, eggplant, steak (3 slices eggplant, 2 slices tomato, 1 slice steak). Continue this pattern until all the slices are used up, layering them as pictured. Slide any extra slices in where you can.",
+            "Sprinkle all seasonings over the sheet tray (you can use dried thyme if you don’t have fresh), following with the olive oil and lemon juice. Bake the tray uncovered for 30 minutes.",
+            "When you pull the finished tray out from the oven, sprinkle the parmesan over the tray so it melts right away. Serve with a spatula."
+        ],
+        "servings": 4,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 148,
+                "units": "2pc steak w veg",
+                "originalWeight": 148,
+                "originalWeightUnits": "g"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 255.15,
+            "caloriesKJ": 1067.547,
+            "totalCarbs": 6.779,
+            "diabetesCarbsADA": 6.115,
+            "netCarbs": 4.081,
+            "diabetesCarbs": 4.159,
+            "fiber": 2.542,
+            "starch": 0.528,
+            "sugar": 3.911,
+            "addedSugar": 0,
+            "sugarAlcohols": 0.156,
+            "protein": 24.956,
+            "fat": 14.337,
+            "transFat": 0.018,
+            "monousatFat": 5.028,
+            "polyunsatFat": 0.829,
+            "omega3Fat": 0.066,
+            "omega6Fat": 0.763,
+            "saturatedFat": 4.156,
+            "cholesterol": 36.037,
+            "vitaminA": 39.746,
+            "vitaminC": 14.358,
+            "vitaminD": 0.004,
+            "vitaminE": 1.587,
+            "vitaminK": 14.247,
+            "vitaminB1": 0.054,
+            "vitaminB2": 0.041,
+            "vitaminB3": 0.831,
+            "vitaminB5": 0.219,
+            "vitaminB6": 0.129,
+            "vitaminB12": 0.011,
+            "potassium": 321.735,
+            "magnesium": 18.208,
+            "calcium": 30.595,
+            "iron": 2.411,
+            "zinc": 0.277,
+            "copper": 0.098,
+            "phosphorus": 40.81,
+            "sodium": 376.657,
+            "selenium": 0.552,
+            "folate": 23.521,
+            "choline": 9.512,
+            "alcohol": 0,
+            "caffeine": 0,
+            "gluten": 0,
+            "manganese": 0.262,
+            "conjugatedLinoleicAcid": 0.001,
+            "phyticAcid": 31.156,
+            "xylitol": 0.006,
+            "isomalt": 0,
+            "sorbitol": 0.004,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0,
+            "inositol": 0.047,
+            "mannitol": 0.099
+        },
+        "image": "/images/59efefcf-5f9e-4575-af3d-e5dcb8d1c846.jpg"
+    },
+    {
+        "id": "47ca18bf-afd0-4026-91f8-9d6513a47e42",
+        "name": "Low Carb Fried Chicken Lettuce Wrap W Cajun Mayo",
+        "tags": [
+            "dairy-free",
+            "gluten-free",
+            "wheat-free",
+            "peanut-free",
+            "fish-free",
+            "shellfish-free",
+            "beef-free",
+            "lchf",
+            "relevant-meal--lunch"
+        ],
+        "description": "This hot lunch is better than what you ever got at the sub shop! A freshly fried piece of white meat chicken breast takes center stage in a refreshing and healthy lettuce wrap. Instead of typical breadcrumbs, the breading is made with Keto pork rinds. A cajun-inspired mayo is spread all over the inside, and the chicken is topped with chopped pickle too. This lunch is like a hot Nashville chicken sandwich with a Keto twist and a little less “hot”. It may not best the best for meal prep recipes, due to the lettuce wrap. However, you can follow the directions below to learn how to prep ahead larger quantities of this Keto meal to save you time in the kitchen.\n\n### Meal Prepping This Recipe\n\nIf you made the Keto chicken wraps entirely ahead of time, you’d have a very soggy salad in your refrigerator when the lettuce wraps go limp! However, you can prep these ingredients separately for an easy meal you can put together in the middle of the week without any cooking. Increase the ingredient list to reflect the amount of servings you want to make. Fry the chicken breasts in batches, and make sure they fully cool before storing away in a container in your refrigerator. Prepare the cajun mayo and chopped pickle, but store them separately in your refrigerator. When it’s time for lunch, simply lay down your lettuce leaves, arrange the prepare ingredients, wrap, and enjoy!\n\n### Using Your Favorite Pickle\n\nThis Keto recipe recommends using your “favorite pickle” when assembling your chicken wrap. Pickles can add a great flavor component, and the right one can pair perfectly with the cajun mayo. If you happen to enjoy homemade pickles, ask whoever made them if they used any sugar when creating the pickle brine. If your favorite pickle is storebought, check the labels. Many top-brand pickle companies add tons of extra sugar, but there are low-sugar options on grocery store shelves. Only trust yourself? You can make your own pickles by following either the Carb Manager Keto Bread And Butter Pickles or the Carb Manager Keto Quick Pickle With Red Peppers.\n\nJessica L.",
+        "prepareTime": 17,
+        "cookTime": 10,
+        "ingredients": [
+            {
+                "name": "Paleo Baking Flour by Bob's Red Mill",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "1-½ teaspoon",
+                    "qty": 1.5,
+                    "grams": 3,
+                    "scale": 0.031
+                }
+            },
+            {
+                "name": "Raw Egg",
+                "servingSize": {
+                    "units": "large",
+                    "desc": "½ large",
+                    "qty": 0.5,
+                    "grams": 25,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Fried Pork Rinds",
+                "servingSize": {
+                    "units": "ounce",
+                    "desc": "1 ounce",
+                    "qty": 1,
+                    "grams": 28,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Chicken Breast Boneless Skinless Raw",
+                "servingSize": {
+                    "units": "oz",
+                    "desc": "4 oz",
+                    "qty": 4,
+                    "grams": 113,
+                    "scale": 0.48
+                }
+            },
+            {
+                "name": "Salt",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "⅛ teaspoon",
+                    "qty": 0.125,
+                    "scale": 0.125
+                }
+            },
+            {
+                "name": "Black Pepper",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "⅛ teaspoon",
+                    "qty": 0.125,
+                    "scale": 0.125
+                }
+            },
+            {
+                "name": "Garlic Powder",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "⅛ teaspoon",
+                    "qty": 0.125,
+                    "scale": 0.125
+                }
+            },
+            {
+                "name": "Onion Powder",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "⅛ teaspoon",
+                    "qty": 0.125,
+                    "scale": 0.125
+                }
+            },
+            {
+                "name": "Avocado Oil",
+                "servingSize": {
+                    "units": "tablespoon",
+                    "desc": "2 tablespoon",
+                    "qty": 2,
+                    "grams": 27,
+                    "scale": 2
+                }
+            },
+            {
+                "name": "Mayonnaise",
+                "servingSize": {
+                    "units": "tablespoon",
+                    "desc": "1 tablespoon",
+                    "qty": 1,
+                    "grams": 14,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Ketchup",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "½ teaspoon",
+                    "qty": 0.5,
+                    "grams": 2,
+                    "scale": 0.167
+                }
+            },
+            {
+                "name": "Paprika",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "¼ teaspoon",
+                    "qty": 0.25,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Cumin, Ground",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "¼ teaspoon",
+                    "qty": 0.25,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Garlic Powder",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "⅛ teaspoon",
+                    "qty": 0.125,
+                    "scale": 0.125
+                }
+            },
+            {
+                "name": "Thyme, Dried",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "⅛ teaspoon",
+                    "qty": 0.125,
+                    "scale": 0.125
+                }
+            },
+            {
+                "name": "Lemon Juice",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "¼ teaspoon",
+                    "qty": 0.25,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Pickles",
+                "servingSize": {
+                    "units": "ounce",
+                    "desc": "¼ ounce",
+                    "qty": 0.25,
+                    "grams": 7,
+                    "scale": 0.05
+                }
+            },
+            {
+                "name": "Iceberg Lettuce",
+                "servingSize": {
+                    "units": "ounce",
+                    "desc": "2 ounce",
+                    "qty": 2,
+                    "grams": 57,
+                    "scale": 0.995
+                }
+            }
+        ],
+        "steps": [
+            "Prepare the breading station first. On one plate, arrange the paleo flour. You can include more flour on the plate to ensure an even coating on your chicken later. In a small bowl, whisk together an egg. On a second plate, arrange ground pork rinds. Like the flour, you can include extra ground pork rinds to ensure even coating. Grind the pork rinds by either pulsing them in a food processor or crushing them with a rolling pin in a Ziploc bag.",
+            "Prepare a 4-ounce chicken breast by patting it dry with a paper towel. Lay a sheet of parchment paper or plastic wrap over the breast and pound it to an even thickness. Use the flat side of a meat tenderizer or a rolling pin to flatten the chicken. Press both sides of the chicken into the paleo flour to dredge it.",
+            "Next, shake off excess flour and dip the chicken in the egg. Shake off the extra egg and press both sides of the chicken into the pork rinds. Ensure there is an even light coating of pork rinds all over the chicken. Then, heat the avocado oil in a cast-iron skillet or non-stick pan to medium-high heat. When the oil is hot, lay the breaded chicken in to fry. Fry the chicken on both sides for 4-5 minutes, adjusting the heat to avoid burning.",
+            "Set the fried chicken aside to rest. Make the cajun mayo by whisking together mayo, ketchup, paprika, cumin, garlic powder, thyme, and lemon juice. Set the cajun mayo aside for later. Additionally, dice your favorite type of dill pickle and set it aside with the cajun mayo.",
+            "Prepare the lettuce wrap by removing the largest leaves from a head of iceberg lettuce. Slice away the hard white cores. Each wrap should need about 3 leaves of lettuce and amount to the weight listed in the ingredients. Lay down each leaf on a cutting board from left to right, each leaf overlapping the previous one by about halfway. Spread the cajun mayo across the leaves, leaving the edges clean.",
+            "Lay the fried chicken in the center leaf, vertically. Top the chicken with the diced pickle. Fold the top and bottom edges of the center leaf over the ends of the fried chicken. Then, fold the left and right leaves across the chicken, tucking in any loose pieces of lettuce as necessary. Flip the wrap over the secure the edges of the lettuce leaves under the chicken. Slice the wrap in half and enjoy."
+        ],
+        "servings": 1,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 268,
+                "units": "wrap"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 683.266,
+            "caloriesKJ": 2858.786,
+            "totalCarbs": 6.209,
+            "diabetesCarbsADA": 6.209,
+            "netCarbs": 4.553,
+            "diabetesCarbs": 4.572,
+            "fiber": 1.619,
+            "starch": 0.63,
+            "sugar": 2.353,
+            "addedSugar": 0.615,
+            "sugarAlcohols": 0.037,
+            "protein": 45.134,
+            "fat": 53.286,
+            "transFat": 0.114,
+            "monousatFat": 28.35,
+            "polyunsatFat": 12.112,
+            "omega3Fat": 1.093,
+            "omega6Fat": 10.229,
+            "saturatedFat": 9.526,
+            "cholesterol": 198.49,
+            "vitaminA": 85.02,
+            "vitaminC": 2.665,
+            "vitaminD": 0.624,
+            "vitaminE": 4.859,
+            "vitaminK": 65.252,
+            "vitaminB1": 0.161,
+            "vitaminB2": 0.389,
+            "vitaminB3": 9.26,
+            "vitaminB5": 0.59,
+            "vitaminB6": 0.961,
+            "vitaminB12": 0.692,
+            "potassium": 582.226,
+            "magnesium": 43.488,
+            "calcium": 56.246,
+            "iron": 1.991,
+            "zinc": 1.349,
+            "copper": 0.102,
+            "phosphorus": 316.839,
+            "sodium": 1212.23,
+            "selenium": 49.952,
+            "folate": 39.493,
+            "choline": 130.414,
+            "alcohol": 0,
+            "caffeine": 0,
+            "gluten": 0,
+            "manganese": 0.189,
+            "conjugatedLinoleicAcid": 0.025,
+            "phyticAcid": 21.312,
+            "xylitol": 0.004,
+            "isomalt": 0,
+            "sorbitol": 0,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0,
+            "inositol": 0.025,
+            "mannitol": 0.008
+        },
+        "image": "/images/47ca18bf-afd0-4026-91f8-9d6513a47e42.jpeg"
+    },
+    {
+        "id": "1874ce80-c806-4d9b-aed2-15bb1df86dda",
+        "name": "Low Carb California Breakfast Pizza",
+        "tags": [
+            "kid-friendly",
+            "gluten-free",
+            "wheat-free",
+            "peanut-free",
+            "tree-nut-free",
+            "fish-free",
+            "shellfish-free",
+            "pork-free",
+            "beef-free",
+            "lchf",
+            "relevant-meal--breakfast",
+            "breakfast"
+        ],
+        "description": "This Cali-inspired pizza is a delicious breakfast or lunch! The only egg used here is to bind the zucchini crust, so the non-traditional toppings can give some new life to your breakfast routine. Fresh avocado, slices of turkey, melted mozzarella, and crisp arugula greens balance out the whole meal.\n\nJessica L. \n",
+        "prepareTime": 15,
+        "cookTime": 30,
+        "ingredients": [
+            {
+                "name": "Zucchini",
+                "servingSize": {
+                    "units": "ounce",
+                    "desc": "5-½ ounce",
+                    "qty": 5.5,
+                    "grams": 156,
+                    "scale": 1.38
+                }
+            },
+            {
+                "name": "Parmesan Cheese",
+                "servingSize": {
+                    "units": "cup, shredded",
+                    "desc": "½ cup, shredded",
+                    "qty": 0.5,
+                    "grams": 57,
+                    "scale": 1.993
+                }
+            },
+            {
+                "name": "Raw Egg",
+                "servingSize": {
+                    "units": "large",
+                    "desc": "1 large",
+                    "qty": 1,
+                    "grams": 50,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Salt",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "¼ teaspoon",
+                    "qty": 0.25,
+                    "grams": 2,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Black Pepper, Ground",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "¼ teaspoon",
+                    "qty": 0.25,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Turkey",
+                "servingSize": {
+                    "units": "slice - each 1 ounce",
+                    "desc": "3 slice - each 1 ounce",
+                    "qty": 3,
+                    "grams": 85,
+                    "scale": 3
+                }
+            },
+            {
+                "name": "Avocado",
+                "servingSize": {
+                    "units": "ounce",
+                    "desc": "1-½ ounce",
+                    "qty": 1.5,
+                    "grams": 43,
+                    "scale": 0.313
+                }
+            },
+            {
+                "name": "Mozzarella Cheese",
+                "servingSize": {
+                    "units": "cup, shredded",
+                    "desc": "½ cup, shredded",
+                    "qty": 0.5,
+                    "grams": 57,
+                    "scale": 1.993
+                }
+            },
+            {
+                "name": "Arugula",
+                "servingSize": {
+                    "units": "ounce",
+                    "desc": "½ ounce",
+                    "qty": 0.5,
+                    "grams": 14,
+                    "scale": 0.709
+                }
+            }
+        ],
+        "steps": [
+            "Preheat an oven to 400 degrees. Shred a zucchini and use your hands to squeeze out excess moisture from the squash. Transfer all the shreddings to a mixing bowl. You may also use a paper towel to soak up additional moisture. The weight listed in the ingredients is the final yield after draining the zucchini shreds. Use a wooden spoon to mix the parmesan, egg, salt, and pepper into the zucchini.",
+            "Line a sheet tray with parchment paper. Use your spoon to arrange the zucchini mixture into an 8 inch circle on the tray - it will be somewhat thin. Press the edges in around the circle to create a lip or crust to the “pizza”. ",
+            "Bake the pizza crust for 20 minutes. Then, pull the tray out and top the pizza crust off with chopped turkey slices, chopped avocado, and the mozzarella. If you’d like, you can save the avocado to add on fresh after cooking.",
+            "Reduce the oven temperature to 350 degrees. Bake the pizza for an additional 10 minutes.",
+            "Allow the pizza to cool for a few minutes before slicing into 4 slices and topping off with fresh arugula."
+        ],
+        "servings": 2,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 136,
+                "units": "2 slices"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 337.29,
+            "caloriesKJ": 1411.22,
+            "totalCarbs": 7.527,
+            "diabetesCarbsADA": 7.527,
+            "netCarbs": 5.051,
+            "diabetesCarbs": 5.083,
+            "fiber": 2.411,
+            "starch": 0.14,
+            "sugar": 3.887,
+            "addedSugar": 0.935,
+            "sugarAlcohols": 0.064,
+            "protein": 28.326,
+            "fat": 21.77,
+            "transFat": 0.367,
+            "monousatFat": 7.677,
+            "polyunsatFat": 1.493,
+            "omega3Fat": 0.271,
+            "omega6Fat": 1.222,
+            "saturatedFat": 10.735,
+            "cholesterol": 158.039,
+            "vitaminA": 172.086,
+            "vitaminC": 16.889,
+            "vitaminD": 0.839,
+            "vitaminE": 0.98,
+            "vitaminK": 17.313,
+            "vitaminB1": 0.103,
+            "vitaminB2": 0.438,
+            "vitaminB3": 3.766,
+            "vitaminB5": 1.226,
+            "vitaminB6": 0.405,
+            "vitaminB12": 0.901,
+            "potassium": 477.942,
+            "magnesium": 51.356,
+            "calcium": 541.667,
+            "iron": 1.398,
+            "zinc": 2.466,
+            "copper": 0.118,
+            "phosphorus": 451.283,
+            "sodium": 1427.974,
+            "selenium": 24.748,
+            "folate": 60.741,
+            "choline": 113.861,
+            "alcohol": 0,
+            "caffeine": 0,
+            "gluten": 0,
+            "manganese": 0.251,
+            "conjugatedLinoleicAcid": 0.057,
+            "phyticAcid": 30.918,
+            "xylitol": 0,
+            "isomalt": 0,
+            "sorbitol": 0,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0,
+            "inositol": 0.064,
+            "mannitol": 0
+        },
+        "image": "/images/1874ce80-c806-4d9b-aed2-15bb1df86dda.jpeg"
+    },
+    {
+        "id": "7442c705-0761-436c-90e5-a5a9d91d1f1f",
+        "name": "Keto Spaghetti Bolognese",
+        "tags": [
+            "gluten-free",
+            "wheat-free",
+            "egg-free",
+            "peanut-free",
+            "tree-nut-free",
+            "soy-free",
+            "fish-free",
+            "shellfish-free",
+            "pork-free",
+            "chicken-free",
+            "keto",
+            "lchf",
+            "relevant-meal--main-dishes"
+        ],
+        "description": "This Keto zucchini pasta recipe is a low carb take on a classic spaghetti Bolognese. The recipe calls for zucchini noodles to create a Keto pasta and is topped with a rich tomato sauce loaded with ground beef. This classic family favorite is perfect for weeknight dinners.\n\n### Is Pasta Keto?\n\nTraditional wheat-based pasta is a no-go on a Keto diet. However, there are many low carb alternatives available that act as a great Keto substitute. A good place to start is by using vegetables! Zucchini is a common Keto noodle replacement, but you can also use finely sliced cabbage or spiralized low carb squash to replicate spaghetti in your favorite Keto pasta recipes.\n\n### Tips for Cooking Perfect Zucchini Noodles\n\nThe zucchini noodles are an integral part of this Keto spaghetti Bolognese. The most important thing to remember when cooking the zucchini is to not overcook it! You want to heat it through just enough so that the zucchini is tender and hot through. This will only take a few minutes. If you cook the zucchini noodles for too long they can easily become watery and mushy.",
+        "prepareTime": 8,
+        "cookTime": 30,
+        "ingredients": [
+            {
+                "name": "Ground Beef",
+                "servingSize": {
+                    "units": "pound",
+                    "desc": "1 pound",
+                    "qty": 1,
+                    "grams": 453.592,
+                    "scale": 16
+                }
+            },
+            {
+                "name": "Celery",
+                "servingSize": {
+                    "units": "medium - stalk - 7 1/2\" to 8\" long",
+                    "desc": "1 medium - stalk - 7 1/2\" to 8\" long",
+                    "qty": 1,
+                    "grams": 40,
+                    "scale": 0.396
+                }
+            },
+            {
+                "name": "Red Onion",
+                "servingSize": {
+                    "units": "tablespoon",
+                    "desc": "2 tablespoon",
+                    "qty": 2,
+                    "grams": 24,
+                    "scale": 0.152
+                }
+            },
+            {
+                "name": "Oregano Fresh",
+                "servingSize": {
+                    "units": "1 teaspoon",
+                    "desc": "3 x 1 teaspoon",
+                    "qty": 3,
+                    "scale": 3
+                }
+            },
+            {
+                "name": "Olive Oil",
+                "servingSize": {
+                    "units": "tablespoon",
+                    "desc": "2 tablespoon",
+                    "qty": 2,
+                    "grams": 27,
+                    "scale": 2
+                }
+            },
+            {
+                "name": "Oregano, Dried",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "1 teaspoon",
+                    "qty": 1,
+                    "grams": 1,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Garlic",
+                "servingSize": {
+                    "units": "clove",
+                    "desc": "1 clove",
+                    "qty": 1,
+                    "grams": 3,
+                    "scale": 1.059
+                }
+            },
+            {
+                "name": "Tomato Puree",
+                "servingSize": {
+                    "units": "tablespoon",
+                    "desc": "1 tablespoon",
+                    "qty": 1,
+                    "grams": 15.625,
+                    "scale": 0.062
+                }
+            },
+            {
+                "name": "Tomato, Canned",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "⅓ cup",
+                    "qty": 0.333,
+                    "grams": 80,
+                    "scale": 0.333
+                }
+            },
+            {
+                "name": "Beef Broth, Bouillon Or Consomme, Homemade",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "¾ cup",
+                    "qty": 0.75,
+                    "grams": 180,
+                    "scale": 0.75
+                }
+            },
+            {
+                "name": "Parmesan Cheese, Fresh (hard)",
+                "servingSize": {
+                    "units": "cup, grated",
+                    "desc": "⅓ cup, grated",
+                    "qty": 0.333,
+                    "grams": 37.667,
+                    "scale": 1.329
+                }
+            },
+            {
+                "name": "Zucchini Noodles By Garden Highway",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "6 cup",
+                    "qty": 6,
+                    "grams": 510,
+                    "scale": 6
+                }
+            }
+        ],
+        "steps": [
+            "Heat a tablespoon of olive oil in a large skillet over a medium heat. Add the ground beef to the skillet. Pan fry until the meat is browned all over. Remove the beef from the pan with a slotted spoon, transfer to a bowl and set to one side.",
+            "Finely dice the celery and crush the garlic. Heat the remaining olive oil in the pan used to cook the beef over a low/medium heat. Add the celery, onion, fresh oregano and garlic. Sweat gently for 3-4 minutes until tender and fragrant. ",
+            "Return the beef to the skillet. Add the dried oregano and tomato puree. Stir well to combine so that the beef is well mixed with all the seasonings and vegetables.",
+            "Add the beef stock and chopped tomatoes to the skillet. Stir well and simmer for 15-20 minutes until the sauce has reduced. At this point you may wish to season with salt and pepper depending on the saltiness of your stock.",
+            "Just before the beef finishes cooking, add the zucchini noodles to a large saucepan over a low/medium heat. Briefly sauté the noodles for 2-3 minutes until they are hot through and just tender. Drain off any excess liquid and set aside. To serve, top the zucchini noodles with the Bolognese sauce and scatter over the grated parmesan."
+        ],
+        "servings": 4,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 228.218,
+                "units": "servings"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 379.857,
+            "caloriesKJ": 1579.907,
+            "totalCarbs": 8.035,
+            "diabetesCarbsADA": 8.035,
+            "netCarbs": 5.575,
+            "diabetesCarbs": 5.643,
+            "fiber": 2.325,
+            "starch": 0.282,
+            "sugar": 4.277,
+            "addedSugar": 0.098,
+            "sugarAlcohols": 0.135,
+            "protein": 36.366,
+            "fat": 21.865,
+            "transFat": 0.492,
+            "monousatFat": 10.945,
+            "polyunsatFat": 1.252,
+            "omega3Fat": 0.083,
+            "omega6Fat": 1.169,
+            "saturatedFat": 7.458,
+            "cholesterol": 106.194,
+            "vitaminA": 120.398,
+            "vitaminC": 26.679,
+            "vitaminD": 0.102,
+            "vitaminE": 1.397,
+            "vitaminK": 10.615,
+            "vitaminB1": 0.173,
+            "vitaminB2": 0.256,
+            "vitaminB3": 6.413,
+            "vitaminB5": 0.845,
+            "vitaminB6": 0.463,
+            "vitaminB12": 2.986,
+            "potassium": 538.062,
+            "magnesium": 34.927,
+            "calcium": 177.855,
+            "iron": 4.404,
+            "zinc": 7.882,
+            "copper": 0.125,
+            "phosphorus": 303.975,
+            "sodium": 334.895,
+            "selenium": 27.459,
+            "folate": 16.616,
+            "choline": 102.682,
+            "alcohol": 0,
+            "caffeine": 0,
+            "gluten": 0,
+            "manganese": 0.084,
+            "conjugatedLinoleicAcid": 0.045,
+            "phyticAcid": 5.84,
+            "xylitol": 0.001,
+            "isomalt": 0,
+            "sorbitol": 0.001,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0,
+            "inositol": 0.048,
+            "mannitol": 0.085
+        },
+        "image": "/images/7442c705-0761-436c-90e5-a5a9d91d1f1f.jpeg"
+    },
+    {
+        "id": "1f010640-47ca-4674-96ae-22e9b3017440",
+        "name": "Keto Vegan Tofu Ground Beef",
+        "tags": [
+            "beef-free",
+            "chicken-free",
+            "dairy-free",
+            "egg-free",
+            "fish-free",
+            "kid-friendly",
+            "peanut-free",
+            "pork-free",
+            "quick-easy",
+            "shellfish-free",
+            "tree-nut-free",
+            "vegan",
+            "vegetarian",
+            "lunch"
+        ],
+        "description": "Vegans have to get creative when they want to make a substitute version of an animal product, especially when adding Keto guidelines to the mix! Using this vegan Keto ground beef recipe as a meal prep staple will make your time in the kitchen so much easier and convenient. There are so many things you can do with this recipe. You can incorporate this recipe into a larger main course, add it to basic salads and sandwiches, or serve it as is with a vegan Keto side dish. The ground tofu is full of flavor, which you can intensify with marination or adding more seasonings to your taste. For storage, keep the finished ground tofu in air-tight containers in your refrigerator for up to 5 days. You can simply reheat it in your microwave or add it to skillet meals.\n\n### Suggestions For Use\n\nBefore cooking the tofu, you can add other ingredients to turn the ground tofu mixture into a meatloaf or meatballs. Add nutritional yeast or ground almonds to the mixture as a binder before forming it in a pan or dish. After cooking the ground tofu as described in the directions, you can add it to simple meals for more protein and calories. Top off your taco and burrito bowls with the ground tofu, or add it to real Keto tacos made with Keto taco shells. Add a scoop to your salads or on top of cauliflower rice.\n\n### Do I Have To Use Extra Firm Tofu?\n\nIf you don’t have access to extra firm tofu, you can use regular firm tofu as a substitution. In this case, you may need to cook it for longer in your pan and you’ll need to be more gentle when working with the tofu. Extra firm tofu is the best choice because it still has some integrity after it’s cooked. If you intend to use this recipe to make other Keto recipes, like meatloaf or burgers, use extra firm tofu.\n\nJessica L.",
+        "prepareTime": 15,
+        "cookTime": 15,
+        "ingredients": [
+            {
+                "name": "Tofu, raw (not silken), not cooked, extra firm, not drained",
+                "servingSize": {
+                    "units": "oz",
+                    "qty": 14,
+                    "grams": 396.895,
+                    "scale": 14
+                }
+            },
+            {
+                "name": "Salt",
+                "servingSize": {
+                    "units": "tsp",
+                    "qty": 0.25,
+                    "grams": 1.521,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Black pepper",
+                "servingSize": {
+                    "units": "tsp",
+                    "qty": 0.25,
+                    "grams": 0.575,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Cumin, ground",
+                "servingSize": {
+                    "units": "tsp",
+                    "qty": 0.5,
+                    "grams": 1,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Onion powder",
+                "servingSize": {
+                    "units": "tsp",
+                    "qty": 0.25,
+                    "grams": 0.575,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Garlic powder",
+                "servingSize": {
+                    "units": "tsp",
+                    "qty": 0.25,
+                    "grams": 0.808,
+                    "scale": 0.25
+                }
+            },
+            {
+                "name": "Paprika",
+                "servingSize": {
+                    "units": "tsp",
+                    "qty": 0.5,
+                    "grams": 1.134,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Worcestershire sauce",
+                "servingSize": {
+                    "units": "tsp",
+                    "qty": 2,
+                    "grams": 11.458,
+                    "scale": 2
+                }
+            },
+            {
+                "name": "Olive Or Extra Virgin Olive Oil",
+                "servingSize": {
+                    "units": "tbsp",
+                    "qty": 1,
+                    "grams": 13.5,
+                    "scale": 1
+                }
+            }
+        ],
+        "steps": [
+            "Start with a full block of tofu, and remove as much excess water as you can from it without breaking it. Use paper towels to absorb liquid from the sides and top. Gently press down on the top of the tofu to continue releasing liquid until most of it is gone. Then, use your fingers to break the tofu up into crumbly pieces that resemble “ground beef” in a large mixing bowl. If excess liquid pools at the bottom of the bowl, drain it off when you’re done crumbling the tofu.",
+            "Season the ground tofu with salt, pepper, cumin, onion powder, garlic powder, paprika, and worcestershire sauce. For the rest of the recipe, you can use a utensil to mix the tofu in the bowl. At your discretion, you can cover and store the tofu in your refrigerator to marinate, but you may continue on immediately to cook it. Heat the olive oil in a wide pan over high heat. Once the oil is hot, add the seasoned tofu to the pan, and stir it around briefly in the oil. ",
+            "Let the tofu cook on one side until it starts to char and crisp up to mimic grilled ground beef. Once it’s cooked, start stirring and rotating the ground tofu around in the pan as it continues cooking on high heat. If you like the crispy texture, you can continue the process of letting it cook for longer before stirring it. Adjust the heat as necessary to complete cooking the ground tofu to your liking - about 10 minutes. The suggested serving is about 2 ounces of prepared ground tofu."
+        ],
+        "servings": 4,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 62,
+                "units": "serving"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 117.652,
+            "caloriesKJ": 492.256,
+            "totalCarbs": 2.337,
+            "diabetesCarbsADA": 2.337,
+            "netCarbs": 1.612,
+            "diabetesCarbs": 1.675,
+            "fiber": 0.598,
+            "starch": 0.47,
+            "sugar": 1.043,
+            "addedSugar": 0.372,
+            "sugarAlcohols": 0.127,
+            "protein": 10.051,
+            "fat": 8.694,
+            "transFat": 0,
+            "monousatFat": 3.812,
+            "polyunsatFat": 3.024,
+            "omega3Fat": 0.261,
+            "omega6Fat": 2.408,
+            "saturatedFat": 1.391,
+            "cholesterol": 0,
+            "vitaminA": 7.312,
+            "vitaminC": 0.431,
+            "vitaminD": 0,
+            "vitaminE": 0.592,
+            "vitaminK": 5.321,
+            "vitaminB1": 0.054,
+            "vitaminB2": 0.056,
+            "vitaminB3": 0.303,
+            "vitaminB5": 0.853,
+            "vitaminB6": 0.095,
+            "vitaminB12": 0,
+            "potassium": 168.638,
+            "magnesium": 37.088,
+            "calcium": 287.325,
+            "iron": 2.453,
+            "zinc": 1.106,
+            "copper": 0.212,
+            "phosphorus": 115.52,
+            "sodium": 189.505,
+            "selenium": 13.02,
+            "folate": 9.534,
+            "choline": 33.238,
+            "alcohol": 0,
+            "caffeine": 0,
+            "gluten": 0,
+            "manganese": 0.713,
+            "conjugatedLinoleicAcid": 0,
+            "phyticAcid": 184.529,
+            "xylitol": 0,
+            "isomalt": 0,
+            "sorbitol": 0,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0.099,
+            "inositol": 0.027,
+            "mannitol": 0
+        },
+        "image": "/images/1f010640-47ca-4674-96ae-22e9b3017440.jpg"
+    },
+    {
+        "id": "290308fd-907d-4e5c-a35c-b4545d72962d",
+        "name": "Keto Maple, Lemon and Pancetta Chicken Thighs",
+        "tags": [
+            "main-dishes",
+            "beef-free",
+            "dairy-free",
+            "egg-free",
+            "fish-free",
+            "gluten-free",
+            "peanut-free",
+            "shellfish-free",
+            "soy-free",
+            "tree-nut-free",
+            "wheat-free"
+        ],
+        "description": "These delicious Keto chicken thighs are basted in a sweet marinade before being oven baked until perfectly crisp and golden. Our low carb dinner recipe is prepared with skin-on, bone-in chicken thighs, olive oil, maple-flavored syrup, lemon juice, aromatic dried rosemary and thyme, a little garlic powder, and diced pancetta. This makes a great Keto protein option served with your preferred low carb sides.\n\n### Can I Use a Different Cut of Chicken?\n\nWe have used large chicken thighs for this Keto dinner recipe. If preferred, you may use an alternative cut of skin-on, bone-in chicken. Drumsticks, breasts and wings would all be great options. Please be sure to adjust your macros and cooking times as necessary to account for any different ingredients used.\n\n### Serving Suggestions\n\nOur sweet and crisp Keto thighs make a great protein option for lunch or dinner. The thighs would be perfect served with a buttery cauliflower mash, some steamed broccoli, or a hearty low carb salad or slaw. You will find a range of delicious Keto accompaniments in our sides section.",
+        "prepareTime": 10,
+        "cookTime": 35,
+        "ingredients": [
+            {
+                "name": "Chicken thigh with skin",
+                "servingSize": {
+                    "units": "large",
+                    "qty": 4,
+                    "grams": 420,
+                    "scale": 14.815
+                }
+            },
+            {
+                "name": "Diced Pancetta",
+                "servingSize": {
+                    "units": "oz",
+                    "qty": 1.75,
+                    "grams": 49.612,
+                    "scale": 0.322
+                }
+            },
+            {
+                "name": "Extra virgin olive oil",
+                "servingSize": {
+                    "units": "tablespoon",
+                    "qty": 1,
+                    "grams": 13.5,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Maple Flavored Syrup",
+                "servingSize": {
+                    "units": "tbsp",
+                    "qty": 1,
+                    "grams": 0,
+                    "scale": 14.787
+                }
+            },
+            {
+                "name": "Lemon juice",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "qty": 1,
+                    "grams": 5.083,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Lemon Peel Or Zest Raw",
+                "servingSize": {
+                    "units": "tsp",
+                    "qty": 1,
+                    "grams": 2,
+                    "scale": 0.333
+                }
+            },
+            {
+                "name": "Rosemary, dried",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "qty": 1,
+                    "grams": 1.1,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Thyme, dried",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "qty": 1,
+                    "grams": 0.9,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Garlic powder",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "qty": 0.5,
+                    "grams": 1.616,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Salt, sea salt",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "qty": 0.5,
+                    "grams": 3,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Black pepper",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "qty": 0.125,
+                    "grams": 0.287,
+                    "scale": 0.125
+                }
+            }
+        ],
+        "steps": [
+            "Preheat the oven to 400 degrees Fahrenheit. Add the olive oil, maple-flavored syrup, lemon juice, lemon zest, thyme, rosemary, garlic powder, salt and pepper to a small bowl. Mix well to combine.",
+            "Arrange the chicken thighs in a single layer across a shallow oven tray. Brush the maple dressing evenly over each of the chicken thighs. The chicken skin should be well coated in the dressing.",
+            "Scatter the diced pancetta over and around the basted chicken thighs. Transfer the tray to the oven and bake for 35 minutes or until the chicken is entirely cooked through and the skin is golden. Serve with your favorite Keto sides."
+        ],
+        "servings": 4,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 113.47,
+                "units": "portion"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 333.249,
+            "caloriesKJ": 1394.312,
+            "totalCarbs": 2.419,
+            "diabetesCarbsADA": 2.419,
+            "netCarbs": 0.752,
+            "diabetesCarbs": 1.122,
+            "fiber": 1.04,
+            "starch": 0.238,
+            "sugar": 0.148,
+            "addedSugar": 0,
+            "sugarAlcohols": 0.784,
+            "protein": 31.974,
+            "fat": 21.449,
+            "transFat": 0.304,
+            "monousatFat": 7.544,
+            "polyunsatFat": 3.569,
+            "omega3Fat": 0.284,
+            "omega6Fat": 3.284,
+            "saturatedFat": 6.369,
+            "cholesterol": 94.5,
+            "vitaminA": 0.956,
+            "vitaminC": 1.423,
+            "vitaminD": 0.131,
+            "vitaminE": 1.057,
+            "vitaminK": 8.529,
+            "vitaminB1": 0.076,
+            "vitaminB2": 0.232,
+            "vitaminB3": 7.443,
+            "vitaminB5": 1.198,
+            "vitaminB6": 0.371,
+            "vitaminB12": 0.315,
+            "potassium": 261.226,
+            "magnesium": 24.853,
+            "calcium": 35.059,
+            "iron": 1.871,
+            "zinc": 2.821,
+            "copper": 0.093,
+            "phosphorus": 175.843,
+            "sodium": 547.792,
+            "selenium": 18.292,
+            "folate": 9.332,
+            "choline": 83.362,
+            "alcohol": 0,
+            "caffeine": 0,
+            "gluten": 0,
+            "manganese": 0.06,
+            "conjugatedLinoleicAcid": 0.017,
+            "phyticAcid": 2.802,
+            "xylitol": 0,
+            "isomalt": 0,
+            "sorbitol": 0,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0,
+            "inositol": 0.045,
+            "mannitol": 0
+        },
+        "image": "/images/290308fd-907d-4e5c-a35c-b4545d72962d.jpg"
+    },
+    {
+        "id": "e379e66d-dc32-4a30-91f8-f4bd585dc2e8",
+        "name": "Keto Strawberries & Cream Granita",
+        "tags": [
+            "meal-plan-ok",
+            "kid-friendly",
+            "quick-easy",
+            "vegetarian",
+            "pescatarian",
+            "gluten-free",
+            "wheat-free",
+            "egg-free",
+            "peanut-free",
+            "tree-nut-free",
+            "soy-free",
+            "fish-free",
+            "shellfish-free",
+            "pork-free",
+            "beef-free",
+            "chicken-free",
+            "keto",
+            "lchf",
+            "relevant-meal--desserts",
+            "desserts"
+        ],
+        "description": "This Strawberries & Cream Granita will really hit the spot!  The addition of sweetener and heavy cream makes for a creamy, tangy and slightly sweet cold treat.  Be sure to start with frozen strawberries!  It is key that the mixture starts very cold before going into the freezer, making for fewer ice crystals and therefore a creamier dessert.  The prep time looks long, but you only need to stir the granita a couple of times one hour apart from each other.",
+        "prepareTime": 125,
+        "cookTime": 0,
+        "ingredients": [
+            {
+                "name": "Strawberries, Frozen, Unsweetened",
+                "servingSize": {
+                    "units": "pound",
+                    "desc": "1-¼ pound",
+                    "qty": 1.25,
+                    "grams": 567,
+                    "scale": 2.566
+                }
+            },
+            {
+                "name": "Heavy Cream",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "1 cup",
+                    "qty": 1,
+                    "grams": 238,
+                    "scale": 16
+                }
+            },
+            {
+                "name": "The Ultimate Icing Sugar Replacement by Swerve",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "½ cup",
+                    "qty": 0.5,
+                    "grams": 120,
+                    "scale": 24
+                }
+            }
+        ],
+        "steps": [
+            "Blend frozen strawberries with cream in a blender or food processor until smooth.  Add the sweetener and blend again.  Taste and add more sweetener if desired.",
+            "Add mixture to an 8” x 8” pan and place in the freezer.  ",
+            "In one hour, stir mixture completely incorporating the sides into the soft center.  Place back into the freezer.",
+            "In another hour, stir again repeating the same process.  Freeze again until ready to consume!  Allow mixture to warm up slightly before serving to make it easier to scoop!"
+        ],
+        "servings": 10,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 70.875,
+                "units": "servings"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 105.565,
+            "caloriesKJ": 441.686,
+            "totalCarbs": 13.029,
+            "diabetesCarbsADA": 9.368,
+            "netCarbs": 4.517,
+            "diabetesCarbs": 8.178,
+            "fiber": 1.191,
+            "starch": 0,
+            "sugar": 3.28,
+            "addedSugar": 0,
+            "sugarAlcohols": 7.322,
+            "protein": 0.919,
+            "fat": 8.65,
+            "transFat": 0.294,
+            "monousatFat": 2.175,
+            "polyunsatFat": 0.405,
+            "omega3Fat": 0.048,
+            "omega6Fat": 0.357,
+            "saturatedFat": 5.485,
+            "cholesterol": 26.895,
+            "vitaminA": 99.096,
+            "vitaminC": 23.502,
+            "vitaminD": 0.374,
+            "vitaminE": 0.384,
+            "vitaminK": 2.009,
+            "vitaminB1": 0.017,
+            "vitaminB2": 0.066,
+            "vitaminB3": 0.278,
+            "vitaminB5": 0.18,
+            "vitaminB6": 0.024,
+            "vitaminB12": 0.038,
+            "potassium": 106.524,
+            "magnesium": 7.903,
+            "calcium": 24.779,
+            "iron": 0.449,
+            "zinc": 0.131,
+            "copper": 0.031,
+            "phosphorus": 21.176,
+            "sodium": 7.56,
+            "selenium": 1.111,
+            "folate": 10.591,
+            "choline": 7.23,
+            "alcohol": 0,
+            "caffeine": 0,
+            "gluten": 0,
+            "manganese": 0.166,
+            "conjugatedLinoleicAcid": 0.045,
+            "phyticAcid": 7.371,
+            "xylitol": 0.021,
+            "isomalt": 0,
+            "sorbitol": 0.02,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0,
+            "inositol": 0.082,
+            "mannitol": 0
+        },
+        "image": "/images/e379e66d-dc32-4a30-91f8-f4bd585dc2e8.jpeg"
+    },
+    {
+        "id": "b24e76f8-d728-475d-9d31-97f46db54eb3",
+        "name": "Dairy Free Keto Mocha",
+        "tags": [
+            "vegan",
+            "vegetarian",
+            "dairy-free",
+            "gluten-free",
+            "wheat-free",
+            "egg-free",
+            "peanut-free",
+            "soy-free",
+            "fish-free",
+            "shellfish-free",
+            "pork-free",
+            "beef-free",
+            "chicken-free",
+            "keto",
+            "lchf",
+            "relevant-meal--beverages",
+            "beverages"
+        ],
+        "description": "This dairy-free BULLETPROOF® coffee recipe provides a hearty helping of dairy-free fats and a rich chocolate flavor. This comforting Keto mocha is a great go-to drink, perfect for boosting your fats throughout the day. Alternatively, enjoy on its own or alongside one of our Keto breakfasts to kickstart your morning.\n\n### How to make this dairy-free Keto coffee?\n\nIt is easy to get all the fats and flavor in your BULLETPROOF® coffee without the need for dairy. We have used coconut oil and cacao butter as our dairy free fat sources. The cacao butter not only adds a rich source of nutritious fats, but also contributes to the creamy chocolate flavor. Once the fats are melted into the hot coffee they are blended until velvety smooth with a light froth on top.\n\n### Here are some tips for making this Keto coffee:\n\nWe have used coconut oil and cacao butter to load our coffee with healthy fats. You may however substitute the coconut oil with BULLETPROOF® Brain Octane Oil (MCT Oil) if preferred or use a combination of fats. We have also added a little low carb sweetener to help enhance the flavor of the cacao butter. You may use an alternate low carb sweetener if desired. Please be sure to update your macros to reflect any changes.\n\n### What is the best chocolate to use for this Keto drink?\n\nTo limit the number of carbs and keep this recipe Keto-friendly, we are using cocoa powder. While you can use a sugar-free chocolate bar to make this Keto beverage, it usually contains more carbs. Using a chocolate bar will also increase the preparation time since you must melt it.\n\nBULLETPROOF® is a registered trademark owned by Bulletproof Digital, Inc.",
+        "prepareTime": 10,
+        "cookTime": 2,
+        "ingredients": [
+            {
+                "name": "100% Pure Erythritol by Now",
+                "servingSize": {
+                    "units": "tsp",
+                    "desc": "2 tsp",
+                    "qty": 2,
+                    "grams": 8,
+                    "scale": 2
+                }
+            },
+            {
+                "name": "Almond Milk, Vanilla Or Other Flavors, Unsweetened",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "1 cup",
+                    "qty": 1,
+                    "grams": 240,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Cocoa Powder, Unsweetened",
+                "servingSize": {
+                    "units": "tablespoon",
+                    "desc": "1 tablespoon",
+                    "qty": 1,
+                    "grams": 5,
+                    "scale": 3
+                }
+            },
+            {
+                "name": "Raw Cacao Butter by Sunfood",
+                "servingSize": {
+                    "units": "tbsp",
+                    "desc": "1 tbsp",
+                    "qty": 1,
+                    "grams": 14,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Coconut Oil",
+                "servingSize": {
+                    "units": "tablespoon",
+                    "desc": "1 tablespoon",
+                    "qty": 1,
+                    "grams": 14,
+                    "scale": 1
+                }
+            },
+            {
+                "name": "Black Coffee",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "½ cup",
+                    "qty": 0.5,
+                    "grams": 118,
+                    "scale": 4
+                }
+            }
+        ],
+        "steps": [
+            "Add your hot coffee to a large mug then add the cocoa powder, cacao butter, coconut oil and erythritol. Stir well to melt the fats and dissolve the sweetener. Carefully use a handheld stick blender or milk frother and blend the fat and coffee until smooth and creamy. ",
+            "Add the almond milk to a small saucepan and set over low/medium heat. Gently warm the milk until it is piping hot through and tiny bubbles start to appear on the surface. Remove the milk from the heat then carefully use a handheld stick blender or milk frother to blitz the milk until almost doubled in volume and is light and foamy.",
+            "Carefully pour the hot frothy milk into the center of the blended coffee. The milk will sink to the bottom of the mug leaving a light layer of froth on the surface. Optionally you may dust the milk foam lightly with a little cocoa powder then serve hot."
+        ],
+        "servings": 1,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 289.17,
+                "units": "mug",
+                "originalWeight": 289.17,
+                "originalWeightUnits": "g"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 319.934,
+            "caloriesKJ": 1338.603,
+            "totalCarbs": 19.036,
+            "diabetesCarbsADA": 12.052,
+            "netCarbs": 3.866,
+            "diabetesCarbs": 7.876,
+            "fiber": 7.15,
+            "starch": 2.052,
+            "sugar": 0.563,
+            "addedSugar": 0,
+            "sugarAlcohols": 8.02,
+            "protein": 4.364,
+            "fat": 32.231,
+            "transFat": 0.005,
+            "monousatFat": 8.2,
+            "polyunsatFat": 1.923,
+            "omega3Fat": 0.003,
+            "omega6Fat": 0.92,
+            "saturatedFat": 20.732,
+            "cholesterol": 0,
+            "vitaminA": 149.974,
+            "vitaminC": 0,
+            "vitaminD": 2.5,
+            "vitaminE": 10.092,
+            "vitaminK": 0.602,
+            "vitaminB1": 0.039,
+            "vitaminB2": 0.186,
+            "vitaminB3": 0.76,
+            "vitaminB5": 0.367,
+            "vitaminB6": 0.026,
+            "vitaminB12": 0,
+            "potassium": 464.237,
+            "magnesium": 100.019,
+            "calcium": 473.145,
+            "iron": 2.973,
+            "zinc": 1.282,
+            "copper": 0.666,
+            "phosphorus": 146.045,
+            "sodium": 175.759,
+            "selenium": 2.512,
+            "folate": 9.732,
+            "choline": 7.664,
+            "alcohol": 0.172,
+            "caffeine": 84.449,
+            "gluten": 0,
+            "manganese": 0.725,
+            "conjugatedLinoleicAcid": 0,
+            "phyticAcid": 362.084,
+            "xylitol": 0,
+            "isomalt": 0,
+            "sorbitol": 0,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0,
+            "inositol": 0.014,
+            "mannitol": 0.006
+        },
+        "image": "/images/b24e76f8-d728-475d-9d31-97f46db54eb3.jpeg"
+    },
+    {
+        "id": "b4248af9-0ae8-425f-8946-cdf18dd33f0d",
+        "name": "Low Carb Peanut Butter Bacon Cookies",
+        "tags": [
+            "meal-plan-ok",
+            "kid-friendly",
+            "dairy-free",
+            "gluten-free",
+            "wheat-free",
+            "tree-nut-free",
+            "soy-free",
+            "fish-free",
+            "shellfish-free",
+            "beef-free",
+            "chicken-free",
+            "lchf",
+            "relevant-meal--desserts"
+        ],
+        "description": "Everything is better with bacon! These yummy cookies are easy to make and very satisfying. Use your favorite granulated sugar substitute. I recommend one that’s a blend of a few different types to get a better texture. Since the cookies are already brown from the peanut butter, you won’t notice a Lot of browning while the cookies are baking, but 12-14 minutes in the oven is the perfect time to firm them up. As much as you’ll want to eat them right when they come out of the oven, hang tight as they cool off and firm up.\n",
+        "prepareTime": 10,
+        "cookTime": 63,
+        "ingredients": [
+            {
+                "name": "Peanut Butter, Salted",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "½ cup",
+                    "qty": 0.5,
+                    "grams": 128.999,
+                    "scale": 8
+                }
+            },
+            {
+                "name": "Egg",
+                "servingSize": {
+                    "units": "large",
+                    "desc": "1 large",
+                    "qty": 1,
+                    "grams": 50,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Granular Sugar Replacement by Swerve",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "¼ cup",
+                    "qty": 0.25,
+                    "grams": 48,
+                    "scale": 12
+                }
+            },
+            {
+                "name": "Baking Soda",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "½ teaspoon",
+                    "qty": 0.5,
+                    "grams": 2.3,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Applewood Smoked Uncured Bacon by Niman Ranch",
+                "servingSize": {
+                    "units": "slice",
+                    "desc": "6 slice",
+                    "qty": 6,
+                    "grams": 90,
+                    "scale": 6
+                }
+            }
+        ],
+        "steps": [
+            "Roast bacon slices at 350 degrees for about 30 minutes, or until crispy. Remove from the oven and roughly shop the slices. Set aside and reduce the oven temperature to 325 degrees.",
+            "Pour ½ cup of creamy peanut butter in a mixing bowl.",
+            "Add the sweetener, egg, and baking soda to the bowl and mix together. Fold in the chopped bacon.",
+            "Form into 10 balls and place them on a parchment covered baking sheet. Slightly flatten each of the balls. ",
+            "Place the sheet in the oven and bake for 12-14 minutes. Remove the cookies from the oven and allow to cool for 20 minutes before enjoying."
+        ],
+        "servings": 10,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 25,
+                "units": "servings (1 cookie)"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 128.691,
+            "caloriesKJ": 508.529,
+            "totalCarbs": 7.717,
+            "diabetesCarbsADA": 7.717,
+            "netCarbs": 2.244,
+            "diabetesCarbs": 4.658,
+            "fiber": 0.645,
+            "starch": 0.459,
+            "sugar": 1.392,
+            "addedSugar": 1.013,
+            "sugarAlcohols": 4.828,
+            "protein": 4.694,
+            "fat": 11.323,
+            "transFat": 0.01,
+            "monousatFat": 3.537,
+            "polyunsatFat": 1.685,
+            "omega3Fat": 0.004,
+            "omega6Fat": 1.614,
+            "saturatedFat": 2.987,
+            "cholesterol": 27.15,
+            "vitaminA": 7,
+            "vitaminC": 0,
+            "vitaminD": 0.06,
+            "vitaminE": 1.222,
+            "vitaminK": 0.054,
+            "vitaminB1": 0.023,
+            "vitaminB2": 0.049,
+            "vitaminB3": 1.695,
+            "vitaminB5": 0.147,
+            "vitaminB6": 0.064,
+            "vitaminB12": 0.065,
+            "potassium": 78.681,
+            "magnesium": 22.272,
+            "calcium": 8.971,
+            "iron": 0.316,
+            "zinc": 0.379,
+            "copper": 0.06,
+            "phosphorus": 52.765,
+            "sodium": 205.882,
+            "selenium": 2.114,
+            "folate": 13.573,
+            "choline": 20.682,
+            "alcohol": 0,
+            "caffeine": 0,
+            "gluten": 0,
+            "manganese": 0.215,
+            "conjugatedLinoleicAcid": 0.002,
+            "phyticAcid": 57.147,
+            "xylitol": 0,
+            "isomalt": 0,
+            "sorbitol": 0,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0,
+            "inositol": 0.028,
+            "mannitol": 0
+        },
+        "image": "/images/b4248af9-0ae8-425f-8946-cdf18dd33f0d.jpeg"
+    },
+    {
+        "id": "a2b063ec-68c0-468d-86b9-e4f1b8b324e0",
+        "name": "Keto Ginger and Orange Buttercream Truffles",
+        "tags": [
+            "vegetarian",
+            "gluten-free",
+            "wheat-free",
+            "egg-free",
+            "peanut-free",
+            "tree-nut-free",
+            "soy-free",
+            "fish-free",
+            "shellfish-free",
+            "pork-free",
+            "beef-free",
+            "chicken-free",
+            "keto",
+            "lchf",
+            "relevant-meal--snacks"
+        ],
+        "description": "These Keto buttercream truffles are flavored with zesty orange and a hint of warming ginger. Our buttery truffles are an excellent ‘make-ahead’ Keto dessert recipe, perfect for sharing with family and friends (if you must!). Simple to prepare but packed with flavor, these are a great sweet treat option providing a boost of Keto-friendly fats. A great low carb dessert recipe to have on hand in the fridge!\n\n### How Do You Make Keto Buttercream Truffles?\n\nWe have prepared our truffle center similarly to how you would prepare a Keto frosting. We have used unsalted butter, a little cream cheese and powdered erythritol to create our buttercream truffle base. Once blended, the truffle mixture needs to be refrigerated and chilled until firm enough to scoop and shape into individual truffles. This will take several hours and is best left overnight. If you do not wish to use erythritol you may use an alternative low carb powdered sweetener, adjusting quantities to taste.\n\n### Hints and Tips\n\nThese Keto buttercream truffles have been flavored with ginger, cinnamon and orange extract. The truffles are then dusted in unsweetened cocoa powder to finish. You may alter the flavorings as desired and may omit the spices if you wish. The orange can be substituted for vanilla extract and if you choose to remove the spices, you could add a little peppermint extract. Please be sure to adjust your macros to account for any changes made to the recipe.",
+        "prepareTime": 480,
+        "cookTime": 0,
+        "ingredients": [
+            {
+                "name": "Cocoa Powder, Unsweetened",
+                "servingSize": {
+                    "units": "tablespoon",
+                    "desc": "1-½ tablespoon",
+                    "qty": 1.5,
+                    "grams": 8,
+                    "scale": 4.5
+                }
+            },
+            {
+                "name": "Unsalted Butter",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "⅔ cup",
+                    "qty": 0.667,
+                    "grams": 151,
+                    "scale": 10.666
+                }
+            },
+            {
+                "name": "Ginger, Ground",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "½ teaspoon",
+                    "qty": 0.5,
+                    "scale": 0.5
+                }
+            },
+            {
+                "name": "Valencian Orange Extract by Extra Special",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "½ teaspoon",
+                    "qty": 0.5,
+                    "scale": 2.464
+                }
+            },
+            {
+                "name": "100% Pure Erythritol by Now",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "¼ cup",
+                    "qty": 0.25,
+                    "grams": 48,
+                    "scale": 12
+                }
+            },
+            {
+                "name": "Cream Cheese Spread",
+                "servingSize": {
+                    "units": "cup",
+                    "desc": "¼ cup",
+                    "qty": 0.25,
+                    "grams": 60,
+                    "scale": 4
+                }
+            },
+            {
+                "name": "Cinnamon, Ground",
+                "servingSize": {
+                    "units": "teaspoon",
+                    "desc": "¼ teaspoon",
+                    "qty": 0.25,
+                    "scale": 0.25
+                }
+            }
+        ],
+        "steps": [
+            "Add the unsalted butter, powdered erythritol, cream cheese, ginger, cinnamon and orange extract to a food processor. Blend together until smooth and well combined. You may adjust the flavorings and level of sweetener to suit your own personal tastes.",
+            "Transfer the butter mixture to a bowl. Place the bowl in the fridge to firm and set. The mixture needs to be chilled enough that it is easy to scoop and shape. This will take a few hours, but better still overnight. Once firm enough to handle, divide the mixture into 12 even portions and roll into balls. The colder your hands are the better to prevent the butter melting too much. If the mixture gets too hot while shaping, you can place the rolled buttercream truffles in the freezer to re-firm before dusting.",
+            "Add the cocoa powder to a small bowl or tray. Take each butter truffle in turn and roll it in the cocoa powder, coating it liberally all over. Keep the truffles in an airtight container in the fridge until ready to serve."
+        ],
+        "servings": 12,
+        "servingSizes": [
+            {
+                "scale": 1,
+                "qty": 1,
+                "grams": 8.959,
+                "units": "truffles"
+            }
+        ],
+        "nutrients": {
+            "caloriesKCal": 110.655,
+            "caloriesKJ": 462.982,
+            "totalCarbs": 4.685,
+            "diabetesCarbsADA": 4.685,
+            "netCarbs": 0.396,
+            "diabetesCarbs": 2.396,
+            "fiber": 0.289,
+            "starch": 0.151,
+            "sugar": 0.198,
+            "addedSugar": 0,
+            "sugarAlcohols": 4.001,
+            "protein": 0.604,
+            "fat": 11.924,
+            "transFat": 0.461,
+            "monousatFat": 3.389,
+            "polyunsatFat": 0.435,
+            "omega3Fat": 0.059,
+            "omega6Fat": 0.376,
+            "saturatedFat": 7.336,
+            "cholesterol": 31.613,
+            "vitaminA": 101.366,
+            "vitaminC": 0.003,
+            "vitaminD": 0.058,
+            "vitaminE": 0.333,
+            "vitaminK": 1.037,
+            "vitaminB1": 0.002,
+            "vitaminB2": 0.016,
+            "vitaminB3": 0.075,
+            "vitaminB5": 0.042,
+            "vitaminB6": 0.003,
+            "vitaminB12": 0.041,
+            "potassium": 20.053,
+            "magnesium": 4.092,
+            "calcium": 8.062,
+            "iron": 0.171,
+            "zinc": 0.086,
+            "copper": 0.028,
+            "phosphorus": 12.664,
+            "sodium": 23.353,
+            "selenium": 0.399,
+            "folate": 1.206,
+            "choline": 3.847,
+            "alcohol": 0,
+            "caffeine": 1.545,
+            "gluten": 0,
+            "manganese": 0.061,
+            "conjugatedLinoleicAcid": 0.072,
+            "phyticAcid": 12.983,
+            "xylitol": 0,
+            "isomalt": 0,
+            "sorbitol": 0,
+            "maltitol": 0,
+            "lactitol": 0,
+            "erythritol": 0,
+            "pinitol": 0,
+            "inositol": 0,
+            "mannitol": 0
+        },
+        "image": "/images/a2b063ec-68c0-468d-86b9-e4f1b8b324e0.jpeg"
+    }
+]
