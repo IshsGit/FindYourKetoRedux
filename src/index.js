@@ -13,5 +13,6 @@ import foodData from "./scripts/food_data";
 
 const user = new userInput();
 user.setUpTags();
-const food = new foodData();
-food.showDescription();
+// const food = new foodData();
+// food.showDescription();
+
