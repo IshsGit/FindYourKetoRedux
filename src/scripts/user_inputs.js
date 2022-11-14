@@ -1,23 +1,28 @@
+import foodData from "./food_data";
 import * as recipes from "./objects.json";
 
 export default class userInput {
   constructor() {
+    // this.tag = tag;
+    this.food = new foodData();
     this.leftContainer = document.getElementById("left-container");
   }
 
   setUpTags() {
     const numberOfTags = recipes.length;
-
+    const recipeTags = [];
     recipes.forEach((recipe, idx) => {
-      const recipeTags = [];
+     
       const uniqTags = {};
       const tagChoices = document.createElement("div");
       tagChoices.className = "user-tag-choice";
       recipe.tags.forEach((tag, idx) => {
+        console.log(!recipeTags.includes(tag));
         if (!recipeTags.includes(tag)) {
           tagChoices.appendChild(this.generateButton(tag));
         }
         recipeTags.push(tag);
+        console.log(recipeTags);
       });
       this.leftContainer.appendChild(tagChoices);
     });
@@ -34,5 +39,18 @@ export default class userInput {
     return button;
   }
 
-  tagSelectAction(tag) {}
+  tagSelectAction(tag) {
+    this.reset();
+    const tagClick = document.createElement("ul");
+    tagClick.className = "foodAttributes";
+    const foodInfo = document.createElement("li");
+    foodInfo.innerText = this.food.showDescription(tag);
+    tagClick.appendChild(foodInfo);
+
+    // document.getElementsByClassName("button").innertext = "YOU CLICKED ME!";
+  }
+
+  reset(){
+    while (this.food.rightContainer.firstChild) this.food.rightContainer.removeChild(this.food.rightContainer.firstChild);
+  }
 }
