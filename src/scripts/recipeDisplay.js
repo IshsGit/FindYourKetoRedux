@@ -1,4 +1,4 @@
-import userInput from "./user_inputs";
+import userInput from "./userInputs";
 
 export default class recipeDisplay{
     constructor(){
@@ -6,11 +6,16 @@ export default class recipeDisplay{
     }
 
     generateCard(recipeNameArr){
-        
+        console.log("in card");
+        console.log(recipeNameArr);
         const cardName = document.createElement("div");
-        cardName.className = "cardOne";
-        cardName.innerText = recipeNameArr;
-        this.rightContainer.appendChild(cardName);
+        recipeNameArr.forEach((name,idx)=>{
         
+            cardName.className = "cardOne";
+            cardName.innerText = name;
+           
+        });
+        this.rightContainer.appendChild(cardName);
+    
     }
 }

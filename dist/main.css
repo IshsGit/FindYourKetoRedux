@@ -55,11 +55,16 @@ table {
 /*!***************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/page.css ***!
   \***************************************************************************************************/
+body{
+  
+  background-color:darkseagreen;
+}
+
 #left-container{
   display: flex;
   flex-wrap: wrap;
   width: 900px;
-  padding-top: 100px;
+  margin-top: 100px;
   border: 4px dotted blue;
   float: left;
 }

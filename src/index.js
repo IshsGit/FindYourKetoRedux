@@ -8,7 +8,7 @@
 //   if (el.tags.includes("egg-free")) console.log(el.tags);
 // });
 
-import userInput from "./scripts/user_inputs";
+import userInput from "./scripts/userInputs";
 import foodData from "./scripts/food_data";
 import recipeDisplay from "./scripts/recipeDisplay";
 

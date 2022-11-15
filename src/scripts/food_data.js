@@ -1,11 +1,10 @@
 import * as recipes from "./objects.json";
-import userInput from "./user_inputs";
+import userInput from "./userInputs";
 import recipeDisplay from "./recipeDisplay";
 
 
 export default class foodData {
   constructor() {
-    
     this.recipeDisplay = new recipeDisplay();
     this.rightContainer = document.getElementById("right-container");
   }
@@ -19,7 +18,9 @@ export default class foodData {
         }
       }
     });
+    
     this.recipeDisplay.generateCard(recipeNames);
+    
     
   }
 

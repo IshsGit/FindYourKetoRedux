@@ -52,6 +52,7 @@ export default class userInput {
   }
 
   tagSelectAction(tag) {
+    this.reset();
     this.foodData.showName(tag);
  }
 
