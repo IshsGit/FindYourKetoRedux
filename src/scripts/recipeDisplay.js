@@ -1,12 +1,16 @@
-export default class generateCard{
+import userInput from "./user_inputs";
+
+export default class recipeDisplay{
     constructor(){
         this.rightContainer = document.getElementById("right-container");
     }
 
-    generateCard(){
-        const card = document.createElement("div");
-        card.className = "card";
+    generateCard(recipeNameArr){
         
-        this.rightContainer.appendChild(card);
+        const cardName = document.createElement("div");
+        cardName.className = "cardOne";
+        cardName.innerText = recipeNameArr;
+        this.rightContainer.appendChild(cardName);
+        
     }
 }

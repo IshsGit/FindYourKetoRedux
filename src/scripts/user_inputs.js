@@ -1,6 +1,5 @@
 import foodData from "./food_data";
 import * as recipes from "../data/objects.json"
-
 //Create 2 span containers with flex
 //Add some borders to see flexbox
 //Generate elements as column
@@ -23,6 +22,7 @@ import * as recipes from "../data/objects.json"
 
 export default class userInput {
   constructor() {
+    this.foodData = new foodData();
     this.leftContainer = document.getElementById("left-container");
     this.rightContainer = document.getElementById("right-container");
   }
@@ -45,18 +45,19 @@ export default class userInput {
     const button = document.createElement("button");
     button.className = "coolTags";
     button.innerText = tag;
-    button.addEventListener("click", this.tagSelectAction(tag));
+    button.addEventListener("click", () => {
+      this.tagSelectAction(tag);
+    });
     return button;
   }
 
   tagSelectAction(tag) {
-   
+    this.foodData.showName(tag);
  }
 
-  showName(tag){
 
-  }
-
- 
+ reset(){
+  while (this.foodData.rightContainer.firstChild) this.foodData.rightContainer.removeChild(this.foodData.rightContainer.firstChild);
+}
 
 }
