@@ -10,9 +10,12 @@
 
 import userInput from "./scripts/user_inputs";
 import foodData from "./scripts/food_data";
+import recipeDisplay from "./scripts/recipeDisplay";
 
 const user = new userInput();
-user.setUpTags();
+user.setUpTags();  
+const card = new recipeDisplay();
+card.generateCard();
 // const food = new foodData();
 // food.showDescription();
 
