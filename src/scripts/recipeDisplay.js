@@ -8,14 +8,14 @@ export default class recipeDisplay{
     generateCard(recipeNameArr){
         console.log("in card");
         console.log(recipeNameArr);
-        const cardName = document.createElement("div");
-        recipeNameArr.forEach((name,idx)=>{
         
+        recipeNameArr.forEach((name,idx)=>{
+            const cardName = document.createElement("div");
             cardName.className = "cardOne";
             cardName.innerText = name;
-           
+            this.rightContainer.appendChild(cardName);
         });
-        this.rightContainer.appendChild(cardName);
-    
+      
+
     }
 }

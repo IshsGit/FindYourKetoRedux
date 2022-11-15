@@ -63,12 +63,12 @@ body{
 }
 
 #right-container{
-  position:fixed;
+  display: flex;
   width: 810px;
-  float: left;
+  float: right;
   height: 800px;
   border: 4px dotted green;
-
+  flex-wrap: wrap;
 }
 
 #header{

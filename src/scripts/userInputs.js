@@ -28,11 +28,13 @@ export default class userInput {
   }
 
   setUpTags() {
+    
     console.log("in setup");
     const removeDupTags = [];
     recipes.forEach((recipe)=>{
       recipe.tags.forEach((tag)=>{
         if(!removeDupTags.includes(tag)){
+
           this.leftContainer.appendChild(this.generateButton(tag));
         }
         removeDupTags.push(tag);
