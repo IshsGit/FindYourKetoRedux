@@ -5,23 +5,46 @@ import recipeDisplay from "./recipeDisplay";
 
 export default class foodData {
   constructor() {
+
     this.recipeDisplay = new recipeDisplay();
     this.rightContainer = document.getElementById("right-container");
   }
 
-  showName(tag){
+  checker(arr,target){
+  
+    return target.every(v => arr.includes(v));
+  }
+  
+  showName(tagArr){
+    
     const recipeNames = [];
+
     recipes.forEach((recipe)=>{
-      if(recipe.tags.includes(tag)){
-        if(recipeNames.length < 4){
+    
+      if(this.checker(recipe.tags, tagArr)){
           recipeNames.push(recipe.name);
-        }
+      } else {
+        this.reset();
       }
     });
-    
     this.recipeDisplay.generateCard(recipeNames);
-    
-    
+  }
+
+  
+ performActionData(button, tagArr, tag){
+  button.addEventListener("click", () => {
+    tagArr.push(tag);
+    this.tagSelectAction(tagArr);
+  });
+ }
+
+ tagSelectAction(tagArr) {
+  this.showName(tagArr);
+}
+
+
+  reset(){
+    while (this.rightContainer.firstChild) this.rightContainer.removeChild(this.rightContainer.firstChild);
   }
 
   // showDescription(tag) {

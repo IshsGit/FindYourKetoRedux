@@ -18,45 +18,59 @@ import * as recipes from "../data/objects.json"
 //In the even action fcn, display attributes above on right section
 
 //Create fcns for showing name, description, steps, preptime, cooktime and nutrients
-//
+
+//Onclick with more than one tag, store that tag in an array
+//Pass the tag array, and loop through checking if recipe (in recipes)
+//contains every 
 
 export default class userInput {
   constructor() {
+    this.tagArr = [];
     this.foodData = new foodData();
     this.leftContainer = document.getElementById("left-container");
     this.rightContainer = document.getElementById("right-container");
   }
 
   setUpTags() {
-    
+
     console.log("in setup");
     const removeDupTags = [];
     recipes.forEach((recipe)=>{
       recipe.tags.forEach((tag)=>{
         if(!removeDupTags.includes(tag)){
-
+       
           this.leftContainer.appendChild(this.generateButton(tag));
+          
         }
         removeDupTags.push(tag);
       });
     });
   }
 
+  
+
   generateButton(tag){
-    console.log("in generate");
+  
+    
     const button = document.createElement("button");
     button.className = "coolTags";
     button.innerText = tag;
-    button.addEventListener("click", () => {
-      this.tagSelectAction(tag);
-    });
+    this.foodData.performActionData(button, this.tagArr, tag);
+    // button.addEventListener("click", () => {
+    //   this.tagArr.push(tag);
+      
+   
+    //   this.tagSelectAction();
+      
+    // });
     return button;
   }
 
-  tagSelectAction(tag) {
-    this.reset();
-    this.foodData.showName(tag);
- }
+//   tagSelectAction() {
+ 
+//       this.foodData.showName(this.tagArr);
+   
+//  }
 
 
  reset(){
