@@ -77,6 +77,7 @@ export default class recipeDisplay{
 
             // hasInfo.innerText = cardName.innerText;
             const close = document.createElement("button");
+            this.performCloseAction(close);
             this.modal.style.display = "block";
 
             this.mContainer.appendChild(hasInfo);
@@ -85,10 +86,16 @@ export default class recipeDisplay{
             // this.main.appendChild(hasInfo);
             
           });
+
+          
           
     }
 
-   
+    performCloseAction(button){
+        button.addEventListener("click", () => {
+           this.modal.style.display = "none";
+        });
+    }
     
 
     
