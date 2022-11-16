@@ -51,9 +51,10 @@ export default class userInput {
     console.log("in setup");
     const removeDupTags = [];
     recipes.forEach((recipe)=>{
-      recipe.tags.forEach((tag)=>{
+      recipe.tags.sort().forEach((tag)=>{
         if(!removeDupTags.includes(tag)){
-          this.leftContainer.appendChild(this.generateButton(tag));
+          if(!tag.includes("relevant"))
+            this.leftContainer.appendChild(this.generateButton(tag));
         }
         removeDupTags.push(tag);
       });
@@ -74,6 +75,5 @@ export default class userInput {
 
   resetModal(){
     while (this.mContainer.firstChild) this.mContainer.removeChild(this.mContainer.firstChild);
-  
   }
 }

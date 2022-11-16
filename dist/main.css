@@ -109,6 +109,7 @@ body{
 }
 
 .cardOne {
+  background-color: rgba(228, 212, 228, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 50%;
@@ -116,7 +117,6 @@ body{
   display: flex;
   font-size: x-large;
   justify-content:center
-  
 }
 
 #right-container{
@@ -130,12 +130,21 @@ body{
 
 #header{
   margin-bottom: 10px;
+  flex-direction: row;
   width:100%;
   display: flex;
- justify-content: center;
+ justify-content: space-between;
  font-size: xx-large;
+ 
  border: 4px dotted red;
 }
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
 
 #modal-container{
   display: none; /* Hidden by default */
@@ -195,6 +204,11 @@ body{
 
 .tutorial:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.tutorial{
+  display: flex;
+align-content: center;
 }
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!

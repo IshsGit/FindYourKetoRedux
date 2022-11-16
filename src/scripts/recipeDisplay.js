@@ -83,9 +83,6 @@ export default class recipeDisplay{
             
             this.modal.appendChild(modalContainer);
           });
-
-        
-          
     }
 
     performCloseAction(button){
@@ -98,5 +95,4 @@ export default class recipeDisplay{
     resetModal(){
         while (this.mContainer.firstChild) this.mContainer.removeChild(this.mContainer.firstChild);
       }
-    
 }
