@@ -55,7 +55,7 @@ export default class userInput {
     const button = document.createElement("button");
     button.className = "coolTags";
     button.innerText = tag;
-    this.foodData.performActionData(button, this.tagArr, tag);
+    this.foodData.performActionTag(button, this.tagArr, tag);
     // button.addEventListener("click", () => {
     //   this.tagArr.push(tag);
       

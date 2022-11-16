@@ -31,12 +31,13 @@ export default class foodData {
   }
 
   
- performActionData(button, tagArr, tag){
+ performActionTag(button, tagArr, tag){
   button.addEventListener("click", () => {
     tagArr.push(tag);
     this.tagSelectAction(tagArr);
   });
  }
+
 
  tagSelectAction(tagArr) {
   this.showName(tagArr);
