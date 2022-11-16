@@ -4,6 +4,8 @@ import * as recipes from "../data/objects.json"
 
 export default class recipeDisplay{
     constructor(){
+        this.mContainer = document.getElementById("modal");
+        this.modal = document.getElementById("modal-container");
         this.main = document.getElementById("main");
         this.rightContainer = document.getElementById("right-container");
     }
@@ -25,6 +27,7 @@ export default class recipeDisplay{
 
     buttonInnerCard(cardName){
         const innerCard = document.createElement("button");
+        innerCard.className = "popup";
         innerCard.innerText = "click for more details..."
         cardName.appendChild(innerCard);
         this.performActionBox(innerCard, cardName);    
@@ -34,10 +37,23 @@ export default class recipeDisplay{
         button.addEventListener("click", () => {
             const hasInfo = document.createElement("p");
             //popup
+            // hasInfo.className = ""
             hasInfo.innerText = cardName.innerText;
-            this.main.appendChild(hasInfo);
+
+            const close = document.createElement("button");
+            this.modal.style.display = "block";
+
+
+            this.mContainer.appendChild(hasInfo);
+            this.mContainer.appendChild(close);
+            this.modal.appendChild(modalContainer);
+            // this.main.appendChild(hasInfo);
+            
           });
+          
     }
+
+   
     
 
     
