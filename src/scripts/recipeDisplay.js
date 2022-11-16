@@ -1,5 +1,6 @@
 import userInput from "./userInputs";
 import foodData from "./food_data";
+import * as recipes from "../data/objects.json"
 
 export default class recipeDisplay{
     constructor(){
@@ -10,27 +11,30 @@ export default class recipeDisplay{
     generateCard(recipeNameArr){
         // console.log("in card");
         // console.log(recipeNameArr);
-        recipeNameArr.forEach((name,idx)=>{
-            const cardName = document.createElement("button");
+        let cardName = "";
+        recipeNameArr.forEach((name)=>{
+            cardName = document.createElement("button");
             cardName.className = "cardOne";
             cardName.innerText = name;
             this.buttonInnerCard(cardName);
             this.rightContainer.appendChild(cardName);
         });
-        this.performActionBox(cardName);
+        
+       
     }
 
     buttonInnerCard(cardName){
         const innerCard = document.createElement("button");
         innerCard.innerText = "click for more details..."
         cardName.appendChild(innerCard);
-        this.performActionBox(innerCard);    
+        this.performActionBox(innerCard, cardName);    
     }
-    performActionBox(button){
+
+    performActionBox(button, cardName){
         button.addEventListener("click", () => {
-            const popUp = document.getElementById("main");
             const hasInfo = document.createElement("p");
-            hasInfo.innerText = "test";
+            //popup
+            hasInfo.innerText = cardName.innerText;
             this.main.appendChild(hasInfo);
           });
     }
