@@ -11,8 +11,6 @@ export default class recipeDisplay{
     }
 
     generateCard(recipeNameArr){
-        // console.log("in card");
-        // console.log(recipeNameArr);
         let cardName = "";
         recipeNameArr.forEach((name)=>{
             cardName = document.createElement("button");
@@ -20,9 +18,7 @@ export default class recipeDisplay{
             cardName.innerText = name;
             this.buttonInnerCard(cardName);
             this.rightContainer.appendChild(cardName);
-        });
-        
-       
+        }); 
     }
 
     buttonInnerCard(cardName){
@@ -76,27 +72,31 @@ export default class recipeDisplay{
             })
 
             // hasInfo.innerText = cardName.innerText;
-            const close = document.createElement("button");
-            this.performCloseAction(close);
-            this.modal.style.display = "block";
-
-            this.mContainer.appendChild(hasInfo);
-            this.mContainer.appendChild(close);
-            this.modal.appendChild(modalContainer);
-            // this.main.appendChild(hasInfo);
             
+            this.modal.style.display = "block";
+            const close = document.createElement("button");
+            close.className = "closeBoxPopUp";
+            close.innerText = "Close";
+            this.performCloseAction(close);
+            this.mContainer.appendChild(close);
+            this.mContainer.appendChild(hasInfo);
+            
+            this.modal.appendChild(modalContainer);
           });
 
-          
+        
           
     }
 
     performCloseAction(button){
         button.addEventListener("click", () => {
+           this.resetModal();
            this.modal.style.display = "none";
         });
     }
     
-
+    resetModal(){
+        while (this.mContainer.firstChild) this.mContainer.removeChild(this.mContainer.firstChild);
+      }
     
 }

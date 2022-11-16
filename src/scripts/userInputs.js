@@ -1,80 +1,79 @@
 import foodData from "./food_data";
 import * as recipes from "../data/objects.json"
-//Create 2 span containers with flex
-//Add some borders to see flexbox
-//Generate elements as column
-//Use width and flexwrap wrap to create rows
-
-//Generate buttons for tags
-//Iterate through objects first
-//Iterate through tags
-//For each tag generateButton()
-//Append left span with buttons
-
-//In generate button, createElement button
-//Give it a class
-//Use innertext to define buttons 
-//Define an eventlistener with the event action as a fcn inside
-//In the even action fcn, display attributes above on right section
-
-//Create fcns for showing name, description, steps, preptime, cooktime and nutrients
-
-//Onclick with more than one tag, store that tag in an array
-//Pass the tag array, and loop through checking if recipe (in recipes)
-//contains every 
 
 export default class userInput {
   constructor() {
     this.tagArr = [];
+    this.header = document.getElementById("header");
     this.foodData = new foodData();
     this.leftContainer = document.getElementById("left-container");
     this.rightContainer = document.getElementById("right-container");
+    this.mContainer = document.getElementById("modal");
+    this.modal = document.getElementById("modal-container");
+    this.showInstruction();
   }
 
-  setUpTags() {
+  showInstruction(){
+    const helpdiv = document.createElement("div");
+    const button = document.createElement("button");
+    button.className = "tutorial";
+    button.innerText = "Tutorial";
+    helpdiv.appendChild(button);
+    this.header.appendChild(helpdiv);
+    this.tutorialPopUp(button);
+}
 
+  tutorialPopUp(button){
+    button.addEventListener("click", () => {
+      this.modal.style.display = "block";
+      const test = document.createElement("p");
+      test.innerText = "Find Your Keto with the press of a click. Click on the tags which will pull up recipes ";  
+      const closeButton = document.createElement("button");
+      closeButton.className = "tutorialClose";
+      closeButton.innerText = "Close";
+      this.mContainer.appendChild(test);
+      this.mContainer.appendChild(closeButton);
+      this.performCloseAction(closeButton);
+    });
+  }
+
+  performCloseAction(button){
+    button.addEventListener("click", () => {
+      this.resetModal();
+       this.modal.style.display = "none";
+    });
+}
+
+
+  
+
+  setUpTags() {
     console.log("in setup");
     const removeDupTags = [];
     recipes.forEach((recipe)=>{
       recipe.tags.forEach((tag)=>{
         if(!removeDupTags.includes(tag)){
-       
           this.leftContainer.appendChild(this.generateButton(tag));
-          
         }
         removeDupTags.push(tag);
       });
     });
   }
 
-  
-
   generateButton(tag){
-  
-    
     const button = document.createElement("button");
     button.className = "coolTags";
     button.innerText = tag;
     this.foodData.performActionTag(button, this.tagArr, tag);
-    // button.addEventListener("click", () => {
-    //   this.tagArr.push(tag);
-      
-   
-    //   this.tagSelectAction();
-      
-    // });
     return button;
   }
 
-//   tagSelectAction() {
- 
-//       this.foodData.showName(this.tagArr);
-   
-//  }
-
-
  reset(){
   while (this.foodData.rightContainer.firstChild) this.foodData.rightContainer.removeChild(this.foodData.rightContainer.firstChild);
-}
+  }
 
+  resetModal(){
+    while (this.mContainer.firstChild) this.mContainer.removeChild(this.mContainer.firstChild);
+  
+  }
 }
