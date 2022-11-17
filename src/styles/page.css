@@ -37,19 +37,9 @@ body{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.cardOne {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 50%;
-  height: 50%;
-  display: flex;
-  font-size: x-large;
-  justify-content:center
-}
 
-.cardOne:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+
+
 
 .cardOne {
   background-color: rgba(228, 212, 228, 0.2);
@@ -59,9 +49,33 @@ body{
   height: 50%;
   display: flex;
   font-size: x-large;
-  justify-content:center
+  justify-content:center;
+  
 }
 
+.reset{
+	background-color:#9b0d05;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	padding:24px 42px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  
+  
+}
+
+.reset:active{
+  position:relative;
+	top:1px;
+}
+.reset:hover{
+  background-color:#de7e00;
+}
 #right-container{
   display: flex;
   width: 810px;
@@ -90,16 +104,16 @@ body{
 
 
 #modal-container{
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
 }
 
 *{
@@ -126,10 +140,10 @@ body{
 
 #modal{
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto; 
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; 
   background-color: #fff;
   border-radius: 5px;
   box-shadow: #47a386;
@@ -152,4 +166,6 @@ body{
 .tutorial{
   display: flex;
 align-content: center;
+
 }
+

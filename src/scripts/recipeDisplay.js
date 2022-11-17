@@ -8,19 +8,67 @@ export default class recipeDisplay{
         this.modal = document.getElementById("modal-container");
         this.main = document.getElementById("main");
         this.rightContainer = document.getElementById("right-container");
+        this.attribute = "";
+        this.leftContainer = document.getElementById("left-container");
+        this.container = document.getElementsByClassName("container");
     }
 
     generateCard(recipeNameArr){
+        let alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
         console.log("in generate");
         let cardName = "";
-        recipeNameArr.forEach((name)=>{
+        recipeNameArr.forEach((name,idx)=>{
             cardName = document.createElement("button");
             cardName.className = "cardOne";
+            cardName.classList.add(alpha[idx]);
             cardName.innerText = name;
+            this.performActionBox(cardName, name)
+            this.attribute = cardName.className;
             this.buttonInnerCard(cardName);
             this.rightContainer.appendChild(cardName);
+
+            recipes.forEach((recipe)=>{
+                if(recipe.name === name){
+                var canvasElement = document.createElement("canvas");
+                canvasElement.className = "mychart";
+                canvasElement.style.position = "absolute";
+             
+                canvasElement.style.display = "flex";
+                
+                var config = {
+                  type: "bar",
+                  data:{
+                        labels: ["Calories"],
+                        datasets: [{ label: "num", data: [recipe.nutrients.caloriesKCal]}],
+                      },
+                };
+                cardName.appendChild(canvasElement);
+                // this.leftContainer.appendChild(canvasElement);
+                var chart = new Chart(canvasElement, config);
+
+                // var canvasElementtwo = document.createElement("canvas");
+                // canvasElement.className = "mycharttwo";
+                // canvasElement.style.position = "absolute";
+                
+           
+      
+                // var config = {
+                //   type: "bar",
+                //   data:{
+                //         labels: ["Calories"],
+                //         datasets: [{ label: "num", data: [recipe.nutrients.caloriesKCal]}],
+                //       },
+                // };
+                // cardName.appendChild(canvasElementtwo);
+                // // this.leftContainer.appendChild(canvasElement);
+                // var chart = new Chart(canvasElementtwo, config);
+            }
+            });
+              
         }); 
     }
+
+
 
     buttonInnerCard(cardName){
         const innerCard = document.createElement("button");
@@ -31,8 +79,11 @@ export default class recipeDisplay{
         this.performActionBox(innerCard, cardName, name);    
     }
 
-    performActionBox(button, cardName, name){
+    performActionBox(button, name){
+        
         button.addEventListener("click", () => {
+            
+       
             const hasInfo = document.createElement("p");
             recipes.forEach((recipe)=>{
                 
@@ -69,6 +120,8 @@ export default class recipeDisplay{
                     stepText.innerText = recipe.steps;
                     stepPTag.appendChild(stepText);
                     this.mContainer.appendChild(stepPTag);
+
+                    
                 }
             })
 

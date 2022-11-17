@@ -9,7 +9,15 @@ export default class foodData {
     this.leftContainer = document.getElementById("left-container");
     this.recipeDisplay = new recipeDisplay();
     this.rightContainer = document.getElementById("right-container");
+    const resetButton = document.createElement("button");
+         resetButton.className = "reset";
+    
+          resetButton.innerText = "Reset Tags!"
+        this.leftContainer.appendChild(resetButton);
+        this.performActionReset(resetButton);
   }
+
+
 
   checker(arr,target){
     return target.every(v => arr.includes(v));
@@ -35,6 +43,7 @@ export default class foodData {
         
         this.user.setUpTags();
     }
+    
     this.recipeDisplay.generateCard(recipeNames);
     
   }
@@ -50,10 +59,22 @@ export default class foodData {
   button.addEventListener("click", () => {
     tagArr.push(tag);
     this.tagSelectAction(tagArr);
-    this.strikeIt(button);
+    this.strikeIt(button);    
   });
  }
 
+ 
+ performActionReset(button){
+  button.addEventListener("click", () => {
+  while (this.leftContainer.firstChild) {
+    this.leftContainer.removeChild(this.leftContainer.firstChild)};
+    console.log(this.main);
+    this.removeElementsByClass("tutorial");
+  this.user = new userInput();
+  
+  this.user.setUpTags();
+  });
+ }
  strikeIt(button) {
   
   button.style.setProperty('text-decoration', 'line-through');
