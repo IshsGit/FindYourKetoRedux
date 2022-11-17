@@ -36,6 +36,12 @@ Select from the tag buttons on the left hand. You can click one or more to show 
 ## Technical implementation:
 - Find Your Keto reads from a JSON file. Upon opening Find Your Keto, the userInput class instantiates and populates the display with the tags. 
 
+![This is an image](userinput.png)
+
+The userINput class generates our tags as buttons by pulling from the JSON data and filtering for tags. The even listener is receives a click and goes to the event handler in the foodData class which pulls the recipe from the json data. The data is then rendered in recipeDisplay class.
+
+![This is an image](recipeDisplay.png)
+
 
 ## Future Updates:
 - Update styling on body, header, tags and tiles
