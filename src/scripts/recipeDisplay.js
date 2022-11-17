@@ -39,7 +39,18 @@ export default class recipeDisplay{
                   type: "bar",
                   data:{
                         labels: ["Calories"],
-                        datasets: [{ label: "num", data: [recipe.nutrients.caloriesKCal]}],
+                        datasets: [
+                            { 
+                                label: "Calories:" + `${recipe.nutrients.caloriesKCal}`, 
+                                data: [recipe.nutrients.caloriesKCal],
+                                backgroundColor: [
+                                "rgba(255, 159, 64, 0.5)"
+                                ],
+                                borderColor: [
+                                    "rgba(255, 159, 64, 1)"
+                                ],
+                                borderWidth: 1
+                            }],
                       },
                 };
                 cardName.appendChild(canvasElement);
