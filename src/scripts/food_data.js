@@ -34,7 +34,7 @@ export default class foodData {
       }
     });
     if(!this.rightContainer.length && !recipeNames.length){
-
+      this.reset();
         while (this.leftContainer.firstChild) {
           this.leftContainer.removeChild(this.leftContainer.firstChild)};
           console.log(this.main);
@@ -65,7 +65,9 @@ export default class foodData {
 
  
  performActionReset(button){
+  this.reset();
   button.addEventListener("click", () => {
+    
   while (this.leftContainer.firstChild) {
     this.leftContainer.removeChild(this.leftContainer.firstChild)};
     console.log(this.main);
