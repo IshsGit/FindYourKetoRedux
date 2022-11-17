@@ -4,7 +4,10 @@
 [FindYourKeto](https://ishsgit.github.io/FindYourKetoRedux/)  is a tag driven website where each tag represents a core ingredient or quality behind a low carb recipe. There are many variations of tags a user may select from, the user can easily shuffle through a large variation of recipes, filter by tags in addition to filtering recipes by nutrients.
 
 ## Instructions:
-Select from the tag buttons on the left hand. You can click one or more to show tiles displaying the name of a recipe described by the tag. Each tile shows the name and calories. Click the close button to return back to the tag selection. Tags that were selected already will be crossed out and cannot be chosen again. Click reset tags to start over. 
+Select from the tag buttons on the left hand. 
+![This is an image](tagscreenshots.png)
+You can click one or more to show tiles displaying the name of a recipe described by the tag. Each tile shows the name and calories. Click the close button to return back to the tag selection. Tags that were selected already will be crossed out and cannot be chosen again. Click reset tags to start over. 
+
 
 ## Functionality & MVPs:
 
