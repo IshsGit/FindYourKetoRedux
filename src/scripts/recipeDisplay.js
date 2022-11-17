@@ -135,7 +135,7 @@ export default class recipeDisplay{
             this.mContainer.appendChild(close);
             this.mContainer.appendChild(hasInfo);
             
-            this.modal.appendChild(modalContainer);
+          
           });
     }
 
