@@ -8,7 +8,7 @@ body{
   flex-wrap: wrap;
   width: 900px;
   margin-top: 100px;
-  border: 4px dotted blue;
+  
   float: left;
 }
 
@@ -67,7 +67,7 @@ body{
   width: 810px;
   float: right;
   height: 800px;
-  border: 4px dotted green;
+
   flex-wrap: wrap;
 }
 
@@ -79,7 +79,7 @@ body{
  justify-content: space-between;
  font-size: xx-large;
  
- border: 4px dotted red;
+
 }
 
 .container{

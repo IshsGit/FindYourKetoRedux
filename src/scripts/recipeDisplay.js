@@ -11,6 +11,7 @@ export default class recipeDisplay{
     }
 
     generateCard(recipeNameArr){
+        console.log("in generate");
         let cardName = "";
         recipeNameArr.forEach((name)=>{
             cardName = document.createElement("button");

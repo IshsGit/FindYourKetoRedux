@@ -4,6 +4,7 @@ import * as recipes from "../data/objects.json"
 export default class userInput {
   constructor() {
     this.tagArr = [];
+ 
     this.header = document.getElementById("header");
     this.foodData = new foodData();
     this.leftContainer = document.getElementById("left-container");
@@ -48,7 +49,6 @@ export default class userInput {
   
 
   setUpTags() {
-    console.log("in setup");
     const removeDupTags = [];
     recipes.forEach((recipe)=>{
       recipe.tags.sort().forEach((tag)=>{

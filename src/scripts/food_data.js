@@ -5,77 +5,93 @@ import recipeDisplay from "./recipeDisplay";
 
 export default class foodData {
   constructor() {
-
+    this.main = document.getElementById("main");
+    this.leftContainer = document.getElementById("left-container");
     this.recipeDisplay = new recipeDisplay();
     this.rightContainer = document.getElementById("right-container");
   }
 
   checker(arr,target){
-  
     return target.every(v => arr.includes(v));
   }
   
   showName(tagArr){
-    
     const recipeNames = [];
-
     recipes.forEach((recipe)=>{
-    
       if(this.checker(recipe.tags, tagArr)){
           recipeNames.push(recipe.name);
       } else {
         this.reset();
+      
       }
     });
+    if(!this.rightContainer.length && !recipeNames.length){
+
+        while (this.leftContainer.firstChild) {
+          this.leftContainer.removeChild(this.leftContainer.firstChild)};
+          console.log(this.main);
+          this.removeElementsByClass("tutorial");
+        this.user = new userInput();
+        
+        this.user.setUpTags();
+    }
     this.recipeDisplay.generateCard(recipeNames);
+    
   }
 
+  removeElementsByClass(className){
+    const elements = document.getElementsByClassName(className);
+    while(elements.length > 0){
+        elements[0].parentNode.removeChild(elements[0]);
+    }
+}
   
  performActionTag(button, tagArr, tag){
   button.addEventListener("click", () => {
     tagArr.push(tag);
     this.tagSelectAction(tagArr);
+    this.strikeIt(button);
   });
  }
 
-
+ strikeIt(button) {
+  
+  button.style.setProperty('text-decoration', 'line-through');
+}
  tagSelectAction(tagArr) {
   this.showName(tagArr);
 }
-
-
   reset(){
-    while (this.rightContainer.firstChild) this.rightContainer.removeChild(this.rightContainer.firstChild);
+    while (this.rightContainer.firstChild) {
+      this.rightContainer.removeChild(this.rightContainer.firstChild)};
+     
+        
+      
   }
 
-  // showDescription(tag) {
-  //   objects.forEach((recipe, idx) => {
-  //     if(recipe.tags.includes(tag)){
-  //     const descriptionBlock = document.createElement("div");
-  //     descriptionBlock.className = "description-block";
-  //     const text = document.createElement("p");
-  //     text.className = recipe.name;
-  //     // text.classList.add(recipe.name);
-  //     text.innerText = recipe.description;
-  //     descriptionBlock.appendChild(text);
-  //     this.rightContainer.appendChild(descriptionBlock);
-  //     }
-  //   });
+  // generateButton(tag){
+  
+  //   const button = document.getElementsByClassName("coolTags");
+  //   console.log(button);
+  //   this.performActionTag(button, this.tagArr, tag);
+  //   return button;
   // }
 
-  // showCalories(tag){
-  //   objects.forEach((recipe, idx) => {
-  //     if(recipe.tags.includes(tag)){
-  //     const descriptionBlock = document.createElement("div");
-  //     descriptionBlock.className = "description-block";
-  //     const text = document.createElement("p");
-  //     text.className = recipe.name;
-  //     // text.classList.add(recipe.name);
-  //     text.innerText = recipe.description;
-  //     descriptionBlock.appendChild(text);
-  //     this.rightContainer.appendChild(descriptionBlock);
-  //     }
+  // recipeTags(){
+  //   const removeDupTags = [];
+  //   const allTags = [];
+  //   recipes.forEach((recipe)=>{
+  //     recipe.tags.sort().forEach((tag)=>{
+  //       if(!removeDupTags.includes(tag)){
+  //         if(!tag.includes("relevant"))
+  //           {allTags.push(tag); 
+  //           this.generateButton(tag);
+  //           }
+  //       }
+  //       removeDupTags.push(tag);
+  //     });
   //   });
+
   // }
 }
 
