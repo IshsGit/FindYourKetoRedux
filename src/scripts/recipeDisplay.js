@@ -43,25 +43,7 @@ export default class recipeDisplay{
                       },
                 };
                 cardName.appendChild(canvasElement);
-                // this.leftContainer.appendChild(canvasElement);
                 var chart = new Chart(canvasElement, config);
-
-                // var canvasElementtwo = document.createElement("canvas");
-                // canvasElement.className = "mycharttwo";
-                // canvasElement.style.position = "absolute";
-                
-           
-      
-                // var config = {
-                //   type: "bar",
-                //   data:{
-                //         labels: ["Calories"],
-                //         datasets: [{ label: "num", data: [recipe.nutrients.caloriesKCal]}],
-                //       },
-                // };
-                // cardName.appendChild(canvasElementtwo);
-                // // this.leftContainer.appendChild(canvasElement);
-                // var chart = new Chart(canvasElementtwo, config);
             }
             });
               
@@ -124,8 +106,6 @@ export default class recipeDisplay{
                     
                 }
             })
-
-            // hasInfo.innerText = cardName.innerText;
             
             this.modal.style.display = "block";
             const close = document.createElement("button");

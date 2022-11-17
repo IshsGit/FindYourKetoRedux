@@ -91,31 +91,6 @@ export default class foodData {
         
       
   }
-
-  // generateButton(tag){
-  
-  //   const button = document.getElementsByClassName("coolTags");
-  //   console.log(button);
-  //   this.performActionTag(button, this.tagArr, tag);
-  //   return button;
-  // }
-
-  // recipeTags(){
-  //   const removeDupTags = [];
-  //   const allTags = [];
-  //   recipes.forEach((recipe)=>{
-  //     recipe.tags.sort().forEach((tag)=>{
-  //       if(!removeDupTags.includes(tag)){
-  //         if(!tag.includes("relevant"))
-  //           {allTags.push(tag); 
-  //           this.generateButton(tag);
-  //           }
-  //       }
-  //       removeDupTags.push(tag);
-  //     });
-  //   });
-
-  // }
 }
 
 
