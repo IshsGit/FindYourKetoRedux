@@ -3,18 +3,15 @@
 ## Background:
 [FindYourKeto](https://ishsgit.github.io/FindYourKetoRedux/)  is a tag driven website where each tag represents a core ingredient or quality behind a low carb recipe. There are many variations of tags a user may select from, the user can easily shuffle through a large variation of recipes, filter by tags in addition to filtering recipes by nutrients.
 
+## Instructions:
+Select from the tag buttons on the left hand. You can click one or more to show tiles displaying the name of a recipe described by the tag. Each tile shows the name and calories. Click the close button to return back to the tag selection. Tags that were selected already will be crossed out and cannot be chosen again. Click reset tags to start over. 
+
 ## Functionality & MVPs:
 
 - Display the name, description, prep/cook time, steps, ingredients, servings, serving size, nutrients and an image
 - A user may drag the tags, arrange, edit or delete them or drag and drop them on other tags to compile recipes with the collective tags.
 - Each attribute of the recipe such as the description, steps/prep/cook time can be expanded upon click
 - Click a toggle to display a more advanced menu allowing a user to control the number of calories, protein etc
-
-#### In addition, this project will include:
-
-- A nav link describing how to use the web page if need be
-- Nav links to linkedin, and github
-- A production readme
 
 ## Wireframes:
 
@@ -27,10 +24,21 @@
 
 ## Technologies, libraries, APIs:
 
-- The D3.js for rendering bar graphs, and charts
+- The chart.js for rendering bar graphs, and charts
 - Webpack for stylesheets and script files
 
-## Implementation Timeline: (Tentative)
+## Implementation Timeline: 
 
 - Thursday: Submit final proposal, setup project, review webpack and pull some data with API
-- TBA
+- Tuesday: Rendering tags to display
+- Wednesday: Rendering tags and tiles with graphs to page
+
+## Technical implementation:
+- Find Your Keto reads from a JSON file. Upon opening Find Your Keto, the userInput class instantiates and populates the display with the tags. 
+
+
+## Future Updates:
+- Update styling on body, header, tags and tiles
+- Render graphs representing essential nurtritional values in tiles
+- Render graphs and charts representing nutritional values in tile pop up
+- Makes tiles drag and drop
