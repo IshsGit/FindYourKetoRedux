@@ -90,7 +90,6 @@ body{
   flex-direction: row;
   width:100%;
   display: flex;
- justify-content: space-between;
  font-size: xx-large;
  
 
@@ -98,8 +97,8 @@ body{
 
 .container{
   display: flex;
-  justify-content: space-between;
-  width: 60%;
+  justify-content: space-around;
+  width: 100%;
 }
 
 
