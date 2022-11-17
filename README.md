@@ -1,7 +1,7 @@
 # JS Project Proposal: Find Your Keto
 
 ## Background:
-Click [here](https://ishsgit.github.io/FindYourKetoRedux/)  is a tag driven website where each tag represents a core ingredient or quality behind a low carb recipe. There are many variations of tags a user may select from, the user can easily shuffle through a large variation of recipes, filter by tags in addition to filtering recipes by nutrients.
+[FindYourKeto](https://ishsgit.github.io/FindYourKetoRedux/)  is a tag driven website where each tag represents a core ingredient or quality behind a low carb recipe. There are many variations of tags a user may select from, the user can easily shuffle through a large variation of recipes, filter by tags in addition to filtering recipes by nutrients.
 
 ## Functionality & MVPs:
 
