@@ -137,21 +137,16 @@ export default class recipeDisplay{
 
                     const nutritionalData = document.createElement("p");
                     nutritionalData.innerText += "\n" + "Nutritional Data: ";
-                    // recipe.ingredients.forEach((ingredient)=>{
-                    //     const ingName = document.createElement("ul");
-                    //     ingName.innerText = ingredient.name;
-                    //     ingredients.appendChild(ingName);
-            
-                    //     this.mContainer.appendChild(ingredients);
-                    // });
                     let info = Object.keys(recipe.nutrients);
                     info.forEach((nutrient,idx)=>{
                         const nutrientName = document.createElement("ul");
-                        console.log('nutrient',Object.values(recipe.nutrients)[idx])
+                      
                         nutrientName.innerText = `${nutrient}` + ": " + `${Object.values(recipe.nutrients)[idx]}`;
                         nutritionalData.appendChild(nutrientName);
                         this.mContainer.appendChild(nutritionalData);
                     });
+
+
                 }
             })
             
