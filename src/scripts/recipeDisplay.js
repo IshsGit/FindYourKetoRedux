@@ -18,9 +18,15 @@ export default class recipeDisplay{
         let cardName = "";
         recipeNameArr.forEach((name,idx)=>{
             cardName = document.createElement("button");
+
             cardName.className = "cardOne";
+    
             cardName.classList.add(alpha[idx]);
-            cardName.innerText = name;
+            let myCard = document.createElement("div");
+            myCard.className = "cardNameContainer";
+            cardName.append(myCard);
+            myCard.append(name);
+            // cardName.innerText = name;
             
             this.performActionBox(cardName, name)
             this.attribute = cardName.className;
@@ -30,9 +36,9 @@ export default class recipeDisplay{
             recipes.forEach((recipe)=>{
                 if(recipe.name === name){
                 var canvasElement = document.createElement("canvas");
-           
+             
                 canvasElement.className = "mychart";
-                canvasElement.style.position = "fixed";
+                canvasElement.style.position = "absolute";
                     
                 canvasElement.style.display = "flex";
                 let heavyColor = "rgba(255, 159, 64, 0.5)"
@@ -65,9 +71,14 @@ export default class recipeDisplay{
                             }],
                       },
                 };
-
-                cardName.appendChild(canvasElement);
+                let myChart = document.createElement("div");
+                // myChart.className = "myChartContainer";
+                // myChart.append(canvasElement);
+                // cardName.appendChild(myChart);
                 
+              
+                cardName.appendChild(canvasElement);
+                // myCard.append(canvasElement);
                 var chart = new Chart(canvasElement, config);
             }
             });
@@ -76,6 +87,7 @@ export default class recipeDisplay{
     }
 
     buttonInnerCard(cardName){
+   
         const innerCard = document.createElement("button");
         innerCard.className = "popup";
         innerCard.innerText = "click for more details..."
@@ -123,7 +135,23 @@ export default class recipeDisplay{
                     stepPTag.appendChild(stepText);
                     this.mContainer.appendChild(stepPTag);
 
-                    
+                    const nutritionalData = document.createElement("p");
+                    nutritionalData.innerText += "\n" + "Nutritional Data: ";
+                    // recipe.ingredients.forEach((ingredient)=>{
+                    //     const ingName = document.createElement("ul");
+                    //     ingName.innerText = ingredient.name;
+                    //     ingredients.appendChild(ingName);
+            
+                    //     this.mContainer.appendChild(ingredients);
+                    // });
+                    let info = Object.keys(recipe.nutrients);
+                    info.forEach((nutrient,idx)=>{
+                        const nutrientName = document.createElement("ul");
+                        console.log('nutrient',Object.values(recipe.nutrients)[idx])
+                        nutrientName.innerText = `${nutrient}` + ": " + `${Object.values(recipe.nutrients)[idx]}`;
+                        nutritionalData.appendChild(nutrientName);
+                        this.mContainer.appendChild(nutritionalData);
+                    });
                 }
             })
             
