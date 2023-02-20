@@ -22,6 +22,7 @@ export default class recipeDisplay{
             cardName.className = "cardOne";
             cardName.classList.add(alpha[idx]);
             cardName.innerText = name;
+            
             this.performActionBox(cardName, name)
             this.attribute = cardName.className;
             this.buttonInnerCard(cardName);
