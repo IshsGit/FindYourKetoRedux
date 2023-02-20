@@ -30,11 +30,23 @@ export default class recipeDisplay{
             recipes.forEach((recipe)=>{
                 if(recipe.name === name){
                 var canvasElement = document.createElement("canvas");
+           
                 canvasElement.className = "mychart";
                 canvasElement.style.position = "absolute";
-             
-                canvasElement.style.display = "flex";
                 
+                canvasElement.style.display = "flex";
+                let heavyColor = "rgba(255, 159, 64, 0.5)"
+                let borderColor = "rgba(255, 159, 64, 1)";
+                if(recipe.nutrients.caloriesKCal > 500){
+                    heavyColor =  "rgba(255,221,238, 0.5)";
+                    borderColor = "rgba(255,221,238, 1)";
+                } else if(recipe.nutrients.caloriesKCal < 500 && recipe.nutrients.caloriesKCal > 300){
+                    heavyColor = "rgba(255, 159, 64, 0.5)"
+                    borderColor = "rgba(255, 159, 64, 1)";
+                } else{
+                    heavyColor = "rgba(221,255,221, 0.5)"
+                    borderColor = "rgba(221,255,221, 1)";
+                }
                 var config = {
                   type: "bar",
                   data:{
@@ -42,12 +54,12 @@ export default class recipeDisplay{
                         datasets: [
                             { 
                                 label: "Calories:" + `${recipe.nutrients.caloriesKCal}`, 
-                                data: [recipe.nutrients.caloriesKCal],
+                                data: [recipe.nutrients.caloriesKCal, 700],
                                 backgroundColor: [
-                                "rgba(255, 159, 64, 0.5)"
+                                    heavyColor
                                 ],
                                 borderColor: [
-                                    "rgba(255, 159, 64, 1)"
+                                    borderColor
                                 ],
                                 borderWidth: 1
                             }],
@@ -121,11 +133,11 @@ export default class recipeDisplay{
             this.modal.style.display = "block";
             const close = document.createElement("button");
             close.className = "closeBoxPopUp";
-            close.innerText = "Close";
-            this.performCloseAction(close);
-            this.mContainer.appendChild(close);
+            // close.innerText = "Close";
+            // this.performCloseAction(close);
+            // this.mContainer.appendChild(close);
             this.mContainer.appendChild(hasInfo);
-            
+            this.performCloseAction(this.modal);
           
           });
     }
