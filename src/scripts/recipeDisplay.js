@@ -1,5 +1,4 @@
-import userInput from "./userInputs";
-import foodData from "./food_data";
+
 import * as recipes from "../data/objects.json"
 
 export default class recipeDisplay{
