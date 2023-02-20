@@ -32,8 +32,8 @@ export default class recipeDisplay{
                 var canvasElement = document.createElement("canvas");
            
                 canvasElement.className = "mychart";
-                canvasElement.style.position = "absolute";
-                
+                canvasElement.style.position = "fixed";
+                    
                 canvasElement.style.display = "flex";
                 let heavyColor = "rgba(255, 159, 64, 0.5)"
                 let borderColor = "rgba(255, 159, 64, 1)";
@@ -65,15 +65,15 @@ export default class recipeDisplay{
                             }],
                       },
                 };
+
                 cardName.appendChild(canvasElement);
+                
                 var chart = new Chart(canvasElement, config);
             }
             });
               
         }); 
     }
-
-
 
     buttonInnerCard(cardName){
         const innerCard = document.createElement("button");
@@ -85,10 +85,7 @@ export default class recipeDisplay{
     }
 
     performActionBox(button, name){
-        
         button.addEventListener("click", () => {
-            
-       
             const hasInfo = document.createElement("p");
             recipes.forEach((recipe)=>{
                 
@@ -133,9 +130,6 @@ export default class recipeDisplay{
             this.modal.style.display = "block";
             const close = document.createElement("button");
             close.className = "closeBoxPopUp";
-            // close.innerText = "Close";
-            // this.performCloseAction(close);
-            // this.mContainer.appendChild(close);
             this.mContainer.appendChild(hasInfo);
             this.performCloseAction(this.modal);
           
