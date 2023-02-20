@@ -37,7 +37,7 @@ export default class foodData {
       this.reset();
         while (this.leftContainer.firstChild) {
           this.leftContainer.removeChild(this.leftContainer.firstChild)};
-          console.log(this.main);
+        
           this.removeElementsByClass("tutorial");
         this.user = new userInput();
         
