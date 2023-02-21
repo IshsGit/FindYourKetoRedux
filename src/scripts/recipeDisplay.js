@@ -36,7 +36,9 @@ export default class recipeDisplay{
             recipes.forEach((recipe)=>{
                 if(recipe.name === name){
                 var canvasElement = document.createElement("canvas");
-             
+                const chartContainer = document.createElement("div");
+                chartContainer.className = "chartContainer";
+                cardName.appendChild(chartContainer);
                 canvasElement.className = "mychart";
                 canvasElement.style.position = "absolute";
                     
@@ -71,14 +73,11 @@ export default class recipeDisplay{
                             }],
                       },
                 };
-                let myChart = document.createElement("div");
-                // myChart.className = "myChartContainer";
-                // myChart.append(canvasElement);
-                // cardName.appendChild(myChart);
+                
                 
               
                 cardName.appendChild(canvasElement);
-                // myCard.append(canvasElement);
+                // chartContainer.append(canvasElement);
                 var chart = new Chart(canvasElement, config);
             }
             });

@@ -236,11 +236,15 @@ align-content: center;
 }
 
 .mychart{
-  margin-top: 7%;
+  /* position: relative !important; */
+ /* width: 1000px !important;
+ height: 700px !important; */
+ margin-top: 10%;
 }
 
 .cardNameContainer{
   margin-top: 3%;
+  font-family:Arial;
 }
 
 .tagContainer{
@@ -257,6 +261,10 @@ align-content: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
+}
+
+.chartContainer{
+
 }
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
