@@ -49,21 +49,33 @@ export default class userInput {
 
   setUpTags() {
     const removeDupTags = [];
-    recipes.forEach((recipe)=>{
+    let alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+
+    recipes.forEach((recipe,idx)=>{
       recipe.tags.sort().forEach((tag)=>{
+        let tagContainer = document.createElement("div");
+    tagContainer.className = "tagContainer";
         if(!removeDupTags.includes(tag)){
           if(!tag.includes("relevant"))
-            this.leftContainer.appendChild(this.generateButton(tag));
+          this.leftContainer.append(tagContainer);
+          tagContainer.append(this.generateButton(tag,alpha[idx]));
+          idx+=1;
+            // this.leftContainer.appendChild(this.generateButton(tag));
+            
         }
         removeDupTags.push(tag);
       });
     });
   }
 
-  generateButton(tag){
+  generateButton(tag,alpha){
     const button = document.createElement("button");
+
     button.className = "coolTags";
+    button.classList.add(alpha);
     button.innerText = tag;
+   
+  
     this.foodData.performActionTag(button, this.tagArr, tag);
     return button;
   }

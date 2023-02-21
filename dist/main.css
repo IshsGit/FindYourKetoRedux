@@ -57,7 +57,8 @@ table {
   \***************************************************************************************************/
 body{
   
-  background-color:darkseagreen;
+  /* background-color:darkseagreen; */
+  background-color:#32de84;
 }
 
 #left-container{
@@ -81,6 +82,7 @@ body{
 	padding:24px 42px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
+
 }
 .coolTags:hover {
 	background-color:#5cbf2a;
@@ -107,7 +109,7 @@ body{
   display: flex;
   font-size: x-large;
   justify-content:center;
-  
+
 }
 
 .reset{
@@ -235,15 +237,26 @@ align-content: center;
 
 .mychart{
   margin-top: 7%;
-  min-width:100px !important;
-  min-height:60px !important;
-  width: 20% !important; 
-  height:20% !important;
-
 }
 
 .cardNameContainer{
-  margin-top: 5%;
+  margin-top: 3%;
+}
+
+.tagContainer{
+  padding: 3px;
+  /* padding-top: 5px; */
+}
+
+.title{
+  font-family:sans-serif;
+  font-weight: bold;
+ 
+  background: #005C2E;
+  background: linear-gradient(to right, #005C2E 0%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!

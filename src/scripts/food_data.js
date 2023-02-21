@@ -80,6 +80,7 @@ export default class foodData {
  strikeIt(button) {
   
   button.style.setProperty('text-decoration', 'line-through');
+  button.style.backgroundColor='red';
 }
  tagSelectAction(tagArr) {
   this.showName(tagArr);
@@ -87,9 +88,6 @@ export default class foodData {
   reset(){
     while (this.rightContainer.firstChild) {
       this.rightContainer.removeChild(this.rightContainer.firstChild)};
-     
-        
-      
   }
 }
 
