@@ -34,7 +34,10 @@ export default class foodData {
       
       }
     });
+    
     if(!this.rightContainer.length && !recipeNames.length){
+      let changeRight = document.getElementById('empty-page');
+      changeRight.style.display = 'block';
       this.reset();
         while (this.leftContainer.firstChild) {
           this.leftContainer.removeChild(this.leftContainer.firstChild)};
@@ -44,7 +47,7 @@ export default class foodData {
         
         this.user.setUpTags();
     }
-    
+   
     this.recipeDisplay.generateCard(recipeNames);
     
   }
@@ -60,6 +63,8 @@ export default class foodData {
   button.addEventListener("click", () => {
   
     
+    let changeRight = document.getElementById('empty-page');
+    changeRight.style.display = 'none';
     tagArr.push(tag);
     this.tagSelectAction(tagArr);
     this.strikeIt(button);    

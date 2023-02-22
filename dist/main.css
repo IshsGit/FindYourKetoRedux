@@ -296,6 +296,17 @@ font-size: larger;
   background: blue;
 
 }
+
+#empty-page{
+  display: block;
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 15%;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
