@@ -106,7 +106,7 @@ export default class recipeDisplay{
     performActionBox(button, name){
         button.addEventListener("click", () => {
             const hasInfo = document.createElement("p");
-            recipes.forEach((recipe)=>{
+            recipes.forEach((recipe,idx)=>{
                 
                 if(recipe.name.includes(name)){
                     const nameText = document.createElement("div");
@@ -115,7 +115,7 @@ export default class recipeDisplay{
                     this.mContainer.appendChild(nameText);
 
                     const description = document.createElement("div");
-                    description.innerText = "\n" + "Description: " + recipe.description;
+                    description.innerText = "\n" + "Description: " + "\n" + "\n"+ recipe.description;
                     this.mContainer.appendChild(description);
 
                     const prepTime = document.createElement("div");
@@ -127,8 +127,15 @@ export default class recipeDisplay{
                     this.mContainer.appendChild(cookTime);
                         
                     const ingredients = document.createElement("div");
-                    ingredients.innerText += "\n" + "Ingredients: ";
-                    recipe.ingredients.forEach((ingredient)=>{
+                    const ingText = document.createElement("p");
+                    ingText.className='ingText';
+                    ingText.innerText= "\n" + "Ingredients: ";
+                    ingText.style.marginBottom='10px';
+                    ingredients.appendChild(ingText);
+
+                    // ingredients.innerText += "\n" + "Ingredients: ";
+                    recipe.ingredients.forEach((ingredient,idx)=>{
+                      
                         const ingName = document.createElement("ul");
                         ingName.innerText = ingredient.name;
                         ingredients.appendChild(ingName);
@@ -137,18 +144,33 @@ export default class recipeDisplay{
                     });
 
                     const stepPTag = document.createElement("div");
-                    stepPTag.innerText = "\n" + "Steps: ";
+                    stepPTag.className='stepsSpace'
+                   
+                    const stepPtag= document.createElement("p");
+                    stepPtag.innerText = "\n" + "Steps: ";
+                    stepPtag.style.marginBottom='10px';
                     const stepText = document.createElement("div");
+               
                     stepText.innerText = recipe.steps;
+                    stepPTag.appendChild(stepPtag);
                     stepPTag.appendChild(stepText);
+               
                     this.mContainer.appendChild(stepPTag);
 
                     const nutritionalData = document.createElement("div");
-                    nutritionalData.innerText += "\n" + "Nutritional Data: ";
+                    let nutData = document.createElement("p");
+                    nutData.innerText = "\n" + "Nutritional Data: ";
+                    nutData.style.fontWeight='bold';
+                    nutData.style.fontSize='large';
+                    // nutritionalData.innerText += "\n" + "Nutritional Data: " ;
+                    nutritionalData.appendChild(nutData);
                     let info = Object.keys(recipe.nutrients);
                     info.forEach((nutrient,idx)=>{
+                       
                         const nutrientName = document.createElement("ul");
-                      
+                        if(idx===0){
+                            nutrientName.style.marginTop='10px'
+                        }
                         nutrientName.innerText = `${nutrient}` + ": " + `${Object.values(recipe.nutrients)[idx]}`;
                         nutritionalData.appendChild(nutrientName);
                         this.mContainer.appendChild(nutritionalData);

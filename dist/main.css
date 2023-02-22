@@ -201,6 +201,8 @@ body{
 }
 
 #modal{
+  color: #884404;
+  font-family: sans-serif;
   background-color: #85dec2;
   margin: 15% auto; 
   padding: 20px;
@@ -210,6 +212,7 @@ body{
   border-radius: 25px;
   box-shadow: #47a386;
   text-align: center;
+
 }
 
 
@@ -283,6 +286,7 @@ font-size: larger;
   font-family:sans-serif;
   text-shadow: rgba(255,162,0,0.9) 0px 0px 39px;
 }
+
 
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
