@@ -78,9 +78,14 @@ export default class recipeDisplay{
                                 borderColor: [
                                     borderColor
                                 ],
-                                borderWidth: 1
+                                borderWidth: 1,
+                                datalabels:{
+                                    anchor:'end',
+                                    align:'top',
+                                }
                             }],
                       },
+                      plugins: [ChartDataLabels],
                       options: {
                         scales: {
                             y:{
