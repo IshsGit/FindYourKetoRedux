@@ -50,6 +50,7 @@ export default class userInput {
   setUpTags() {
     const removeDupTags = [];
     let alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+    // let tagHeader = document.createElement("div");
 
     recipes.forEach((recipe,idx)=>{
       recipe.tags.sort().forEach((tag)=>{

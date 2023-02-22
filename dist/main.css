@@ -65,7 +65,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   width: 50%;
-  margin-top: 100px;
+  margin-top: 50px;
   
   float: left;
 }
@@ -258,16 +258,24 @@ align-content: center;
   font-family:sans-serif;
   font-weight: bold;
  
-  background: #005C2E;
+ 
   background: linear-gradient(to right, #005C2E 0%, #CF1512 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
 }
 
-.chartContainer{
+.tagHeader{
+  padding-top: 50px;
+  padding-left: 7%;
+  font-family: sans-serif;
+font-size: larger;
+  font-family:sans-serif;
+
 
 }
+
+
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
