@@ -61,11 +61,15 @@ export default class recipeDisplay{
                         labels: ["Calories"],
                         datasets: [
                             { 
-                                label: "Calories:" + `${recipe.nutrients.caloriesKCal}`, 
-                                data: [recipe.nutrients.caloriesKCal, 700],
+                                label: "Calories:" , 
+                                data: [recipe.nutrients.caloriesKCal, 1000],
                                 backgroundColor: [
                                     heavyColor
                                 ],
+                             
+                               
+                                HoverBackgroundColor: "#b01700",
+                      
                                 borderColor: [
                                     borderColor
                                 ],
@@ -73,6 +77,21 @@ export default class recipeDisplay{
                             }],
                       },
                 };
+                // let statsChart = new Chart(ctx, {
+                //     type: "bar",
+                //     data: {
+                //       labels: sortedNamesArr.slice(0, 10),
+                //       datasets: [
+                //         {
+                //           label: selectedStat,
+                //           data: sortedPlayersStats,
+                //           HoverBackgroundColor: "#b01700",
+                //           backgroundColor: ["rgba(255, 159, 64, 1)"],
+                //           borderColor: ["rgba(0, 0, 0, 0.1)"],
+                //           borderWidth: 1,
+                //         },
+                //       ],
+                //     },
                 
                 
               
@@ -101,23 +120,24 @@ export default class recipeDisplay{
             recipes.forEach((recipe)=>{
                 
                 if(recipe.name.includes(name)){
-                    const nameText = document.createElement("p");
+                    const nameText = document.createElement("div");
+                    // nameText.className = "nameText"
                     nameText.innerText = "Recipe Name: "+ name;
                     this.mContainer.appendChild(nameText);
 
-                    const description = document.createElement("p");
+                    const description = document.createElement("div");
                     description.innerText = "\n" + "Description: " + recipe.description;
                     this.mContainer.appendChild(description);
 
-                    const prepTime = document.createElement("p");
+                    const prepTime = document.createElement("div");
                     prepTime.innerText = "\n" + "Preptime: " + recipe.prepareTime + " minutes";
                     this.mContainer.appendChild(prepTime);
 
-                    const cookTime = document.createElement("p");
+                    const cookTime = document.createElement("div");
                     cookTime.innerText = "\n" + "Cooktime: " + recipe.cookTime + " minutes";
                     this.mContainer.appendChild(cookTime);
                         
-                    const ingredients = document.createElement("p");
+                    const ingredients = document.createElement("div");
                     ingredients.innerText += "\n" + "Ingredients: ";
                     recipe.ingredients.forEach((ingredient)=>{
                         const ingName = document.createElement("ul");
@@ -127,14 +147,14 @@ export default class recipeDisplay{
                         this.mContainer.appendChild(ingredients);
                     });
 
-                    const stepPTag = document.createElement("p");
+                    const stepPTag = document.createElement("div");
                     stepPTag.innerText = "\n" + "Steps: ";
-                    const stepText = document.createElement("p");
+                    const stepText = document.createElement("div");
                     stepText.innerText = recipe.steps;
                     stepPTag.appendChild(stepText);
                     this.mContainer.appendChild(stepPTag);
 
-                    const nutritionalData = document.createElement("p");
+                    const nutritionalData = document.createElement("div");
                     nutritionalData.innerText += "\n" + "Nutritional Data: ";
                     let info = Object.keys(recipe.nutrients);
                     info.forEach((nutrient,idx)=>{
