@@ -111,11 +111,21 @@ export default class recipeDisplay{
                 if(recipe.name.includes(name)){
                     const nameText = document.createElement("div");
                     // nameText.className = "nameText"
-                    nameText.innerText = "Recipe Name: "+ name;
+                    let recipeName = document.createElement("p");
+                    recipeName.className="recipeName";
+                    recipeName.innerText= "Recipe Name: "+ name;
+                    recipeName.style.fontWeight='bold'
+                    recipeName.style.fontSize='large';
+                    nameText.appendChild(recipeName);
+                    
                     this.mContainer.appendChild(nameText);
 
                     const description = document.createElement("div");
-                    description.innerText = "\n" + "Description: " + "\n" + "\n"+ recipe.description;
+                    let descHeader = document.createElement("p");
+                    descHeader.innerText = "\n" + "Description: " + "\n";
+                    descHeader.style.fontWeight='bold';
+                    this.mContainer.append(descHeader);
+                    description.innerText = "\n"+recipe.description;
                     this.mContainer.appendChild(description);
 
                     const prepTime = document.createElement("div");
@@ -131,6 +141,7 @@ export default class recipeDisplay{
                     ingText.className='ingText';
                     ingText.innerText= "\n" + "Ingredients: ";
                     ingText.style.marginBottom='10px';
+                    ingText.style.fontWeight='bold';
                     ingredients.appendChild(ingText);
 
                     // ingredients.innerText += "\n" + "Ingredients: ";
@@ -138,6 +149,7 @@ export default class recipeDisplay{
                       
                         const ingName = document.createElement("ul");
                         ingName.innerText = ingredient.name;
+                        
                         ingredients.appendChild(ingName);
             
                         this.mContainer.appendChild(ingredients);
@@ -149,6 +161,7 @@ export default class recipeDisplay{
                     const stepPtag= document.createElement("p");
                     stepPtag.innerText = "\n" + "Steps: ";
                     stepPtag.style.marginBottom='10px';
+                    stepPtag.style.fontWeight='bold';
                     const stepText = document.createElement("div");
                
                     stepText.innerText = recipe.steps;
@@ -161,7 +174,7 @@ export default class recipeDisplay{
                     let nutData = document.createElement("p");
                     nutData.innerText = "\n" + "Nutritional Data: ";
                     nutData.style.fontWeight='bold';
-                    nutData.style.fontSize='large';
+                    // nutData.style.fontSize='large';
                     // nutritionalData.innerText += "\n" + "Nutritional Data: " ;
                     nutritionalData.appendChild(nutData);
                     let info = Object.keys(recipe.nutrients);
