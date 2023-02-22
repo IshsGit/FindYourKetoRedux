@@ -24,6 +24,7 @@ export default class foodData {
   }
   
   showName(tagArr){
+    
     const recipeNames = [];
     recipes.forEach((recipe)=>{
       if(this.checker(recipe.tags, tagArr)){
@@ -57,6 +58,8 @@ export default class foodData {
   
  performActionTag(button, tagArr, tag){
   button.addEventListener("click", () => {
+  
+    
     tagArr.push(tag);
     this.tagSelectAction(tagArr);
     this.strikeIt(button);    
@@ -83,6 +86,7 @@ export default class foodData {
   button.style.backgroundColor='red';
 }
  tagSelectAction(tagArr) {
+
   this.showName(tagArr);
 }
   reset(){

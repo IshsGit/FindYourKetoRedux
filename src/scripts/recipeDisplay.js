@@ -13,6 +13,9 @@ export default class recipeDisplay{
     }
 
     generateCard(recipeNameArr){
+
+       
+      
         let alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
        
         let cardName = "";
@@ -35,6 +38,8 @@ export default class recipeDisplay{
 
             recipes.forEach((recipe)=>{
                 if(recipe.name === name){
+                
+
                 var canvasElement = document.createElement("canvas");
                 const chartContainer = document.createElement("div");
                 chartContainer.className = "chartContainer";
@@ -77,23 +82,7 @@ export default class recipeDisplay{
                             }],
                       },
                 };
-                // let statsChart = new Chart(ctx, {
-                //     type: "bar",
-                //     data: {
-                //       labels: sortedNamesArr.slice(0, 10),
-                //       datasets: [
-                //         {
-                //           label: selectedStat,
-                //           data: sortedPlayersStats,
-                //           HoverBackgroundColor: "#b01700",
-                //           backgroundColor: ["rgba(255, 159, 64, 1)"],
-                //           borderColor: ["rgba(0, 0, 0, 0.1)"],
-                //           borderWidth: 1,
-                //         },
-                //       ],
-                //     },
-                
-                
+
               
                 cardName.appendChild(canvasElement);
                 // chartContainer.append(canvasElement);

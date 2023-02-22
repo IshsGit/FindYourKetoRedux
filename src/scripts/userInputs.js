@@ -70,6 +70,7 @@ export default class userInput {
   }
 
   generateButton(tag,alpha){
+   
     const button = document.createElement("button");
 
     button.className = "coolTags";
