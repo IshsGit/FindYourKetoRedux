@@ -73,6 +73,8 @@ export default class foodData {
 
  
  performActionReset(button){
+  let changeRight = document.getElementById('empty-page');
+      changeRight.style.display = 'block';
   this.reset();
   button.addEventListener("click", () => {
     

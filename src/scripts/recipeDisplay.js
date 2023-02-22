@@ -51,13 +51,13 @@ export default class recipeDisplay{
                 let heavyColor = "rgba(255, 159, 64, 0.5)"
                 let borderColor = "rgba(255, 159, 64, 1)";
                 if(recipe.nutrients.caloriesKCal > 500){
-                    heavyColor =  "rgba(255,221,238, 0.5)";
+                    heavyColor =  "rgba(241, 90, 34, 1)";
                     borderColor = "rgba(255,221,238, 1)";
                 } else if(recipe.nutrients.caloriesKCal < 500 && recipe.nutrients.caloriesKCal > 300){
-                    heavyColor = "rgba(255, 159, 64, 0.5)"
+                    heavyColor = "rgba(249, 180, 45, 0.5)"
                     borderColor = "rgba(255, 159, 64, 1)";
                 } else{
-                    heavyColor = "rgba(221,255,221, 0.5)"
+                    heavyColor = "rgba(253, 227, 167, 0.5)"
                     borderColor = "rgba(221,255,221, 1)";
                 }
                 var config = {
